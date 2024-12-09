@@ -18,16 +18,16 @@ The Trout Creek Watershed is located on the southern side of Lake Tahoe, Califor
 
 The highest elevation of Trout Creek Watershed Is 10878 feet and the minimum elevation at the stream gauge is 6261 feet. The mean slope of the watershed is 30.1%, with steep, mountainous terrain in the southern region that becomes flatter toward the northern part as it nears the lake. The largest listed land cover type in the area is forest, which covers 43.1% of the watershed (Table 1). Urban land covers 3.1%, and lakes and ponds cover less than 1% of the area. Other land cover types are not specified by Web Soil Survey. Soils in the watershed are dominantly composed of various types of sand, including loamy, cobbly, coarse, gravelly, and stony sands, along with combinations of these textures (Table 2). They are primarily classified as excessively well-drained.
 
-|          Parameter Description          |   Value   |
-|:---------------------------------------:|:---------:|
-|              drainage area              | 36.7 mi²  |
-| mean basin slope computed from 30 m DEM |  30.1 %   |
-|          mean basin elevation           |  7932 ft  |
-|         maximum basin elevation         | 10878 ft  |
-|         minimum basin elevation         |  6261 ft  |
-|         area covered by forest          |  43.1 %   |
-|     area covered by lakes and ponds     | 0.08881 % |
-|     area of developed (urban) land      |   3.1 %   |
+| Parameter Description                   | Value     |
+|:----------------------------------------|:----------|
+| drainage area                           | 36.7 mi²  |
+| mean basin slope computed from 30 m DEM | 30.1 %    |
+| mean basin elevation                    | 7932 ft   |
+| maximum basin elevation                 | 10878 ft  |
+| minimum basin elevation                 | 6261 ft   |
+| area covered by forest                  | 43.1 %    |
+| area covered by lakes and ponds         | 0.08881 % |
+| area of developed (urban) land          | 3.1 %     |
 
 : Table 1: Characteristics of the Trout Creek watershed.
 
@@ -61,13 +61,13 @@ Three notable years occurred: 1983, 2017, and 2021. In 1983, the watershed recor
 
 Monthly trends show that precipitation is elevated from October through April, with a decline from May through September (Figure 6). Snow accumulates during winter, with snowmelt typically occurring between April and July. Soil moisture decreases during the spring and summer months, continuing through August and September, before increasing with higher precipitation in winter. Discharge peaks from March through August, typically in May or June. Evapotranspiration is lowest in December and January, gradually increasing and peaking in July, before gradually declining. Evapotranspiration rises in warmer months and declines in the winter months.
 
-+-----------------+-------------+-------------+------------------------+
-| **Period**      | **Max Q**   | **Min Q**   | **Standard Deviation** |
-+-----------------+-------------+-------------+------------------------+
-| Pre restoration | 801.80      | 95.88       | 182.50                 |
-+-----------------+-------------+-------------+------------------------+
-| Restoration     | 1052.80     | 108.22      | 240.12                 |
-+-----------------+-------------+-------------+------------------------+
++-----------------+--------------+--------------+------------------------+
+| **Period**      | **Max Q**    | **Min Q**    | **Standard Deviation** |
++-----------------+--------------+--------------+------------------------+
+| Pre restoration | 801.80       | 95.88        | 182.50                 |
++-----------------+--------------+--------------+------------------------+
+| Restoration     | 1052.80      | 108.22       | 240.12                 |
++-----------------+--------------+--------------+------------------------+
 
 : Table 3: Annual mean, maximum, minimum, and standard deviation for discharge (Q) of Trout Creek for the pre-restoration period (water years 1961-1995) and restoration period (1996-2023).
 
@@ -381,7 +381,7 @@ The restoration period shows increased variability in discharge compared to the 
 
 California Tahoe Conservancy. (2022). Greater Upper Truckee Watershed Restoration Accomplishments and Opportunities. <https://tahoe.ca.gov/programs/water-quality-watersheds/>
 
-TRCD. (2013). Conservation Projects and Environmental Improvement Projects (EIPs) in the Trout-Cold Creek Community Watershed. *Tahoe Resource Conservation District.* [https://tahoercd.org/ wp-content/uploads/2013/03/Conservation-Projects-Trout-and-Cold-Creek.pdf](https://tahoercd.org/ wp-content/uploads/2013/03/Conservation-Projects-Trout-and-Cold-Creek.pdf)
+TRCD. (2013). Conservation Projects and Environmental Improvement Projects (EIPs) in the Trout-Cold Creek Community Watershed. *Tahoe Resource Conservation District.* [https://tahoercd.org/ wp-content/uploads/2013/03/Conservation-Projects-Trout-and-Cold-Creek.pdf](https://tahoercd.org/%20wp-content/uploads/2013/03/Conservation-Projects-Trout-and-Cold-Creek.pdf)
 
 USGS. (2024). StreamStats. <https://streamstats.usgs.gov/ss/>
 
