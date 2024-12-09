@@ -1,11 +1,14 @@
 ---
-title: "cmhoskins.github.io"
+title: "Colleen Hoskins"
+image: media/profile.jpeg
+toc: false
+about: 
+  template: jolla
+  links:
+    - text: LinkedIn
+      href: www.linkedin.com/in/colleen-hoskins
+    - text: Email
+      href: colleen.hoskins@colostate.edu
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Hi! I am Colleen, a graduate student studying water resources at Colorado State University. I am passionate about water sustainability and ecosystem conservation. On this site, you'll find a watershed analysis of Trout Creek Watershed in Lake Tahoe, CA. This project highlights my interests in R coding, hydaulic analysis, and data visualization.
