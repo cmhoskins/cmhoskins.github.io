@@ -396,7 +396,7 @@ ggarrange(
 ```
 
 ```{r}
-#| fig-cap: "Figure 7: Rain, snowmelt, and soil moisture depth in mm for water years 2020 and 2021 (10/01/2020 – 9/30/2022) for Trout Creek watershed."
+#| fig-cap: "Figure 7: Rain, snowmelt, and soil moisture depth in mm for water years 2021 and 2022 (10/01/2020 – 9/30/2022) for Trout Creek watershed."
 #| warning: false
 
 #Closer Look at the Caldor Fire
