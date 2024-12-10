@@ -12,6 +12,34 @@ Trout Creek was historically one of the most productive fisheries in the Tahoe B
 
 This analysis compares flow and components of the water budget for the pre-restoration period before 1996 and the restoration period from 1996 onward.
 
+```{r}
+#| warning: false
+#| message: false
+#| echo: false 
+#| results: "hide"
+
+source("data/setup.R")
+
+tc_watershed <- st_read("tc_shapefile/layers/globalwatershed.shp")
+tc_point <- st_read("tc_point/trout_creek_gauge_1.shp")
+tc_point$site_id <- "USGS-10336610"
+```
+
+```{r}
+#| fig-cap: "Figure 1: Map of Trout Creek watershed boundary and location of stream gauge USGS-10336790."
+#| warning: false
+#| echo: false
+#| messages: false
+
+tmap_mode("view")
+
+tm_shape(tc_watershed) +
+  tm_borders(col = "blue") +
+  tm_shape(tc_point) +
+  tm_bubbles(col = "red") +  
+  tm_basemap("Esri.WorldStreetMap")
+```
+
 ## **Watershed Characteristics**
 
 The Trout Creek Watershed is located on the southern side of Lake Tahoe, California, adjacent to the Nevada state border (Figure 1). The main water features include Saxton Creek, Cold Creek, Trout Creek and Heavenly Valley Creek. These features converge into the main channel of Trout Creek, which flows north before draining into Lake Tahoe. The drainage area above the stream gauge is 36.7 square miles (Table 1).
@@ -31,54 +59,51 @@ The highest elevation of Trout Creek Watershed Is 10878 feet and the minimum ele
 
 : Table 1: Characteristics of the Trout Creek watershed.
 
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+--------------------------------------------------------+
-| Soil Series                         | Primary Texture                                                                                                         | Drainage Class                                    | Ksat                                                   |
-+=====================================+=========================================================================================================================+===================================================+========================================================+
-| Cassenai                            | gravelly loamy coarse sand, cobbly loamy coarse sand, gravelly coarse sand                                              | somewhat excessively drained                      | high                                                   |
-|                                     |                                                                                                                         |                                                   |                                                        |
-|                                     |                                                                                                                         |                                                   | (1.98 to 5.95 in/hr)                                   |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+--------------------------------------------------------+
-| Temo-Witefels complex               | gravelly loamy coarse sand                                                                                              | excessively drained/ somewhat excessively drained | moderately low to moderately high                      |
-|                                     |                                                                                                                         |                                                   |                                                        |
-|                                     |                                                                                                                         |                                                   | (0.01 to 1.42 in/hr)                                   |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+--------------------------------------------------------+
-| Dagget                              | very gravelly loamy coarse sand                                                                                         | excessively drained                               | moderately low to moderately high (0.01 to 1.42 in/hr) |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+--------------------------------------------------------+
-| Whitell-Jobsis-Rock outcrop complex | very cobbly loamy coarse sand, gravelly loamy coarse sand, very gravelly coarse sand, extremely stony loamy coarse sand | somewhat excessively drained                      | moderately low to moderately high                      |
-|                                     |                                                                                                                         |                                                   |                                                        |
-|                                     |                                                                                                                         |                                                   | (0.01 to 1.42 in/hr)                                   |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+--------------------------------------------------------+
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+-----------------------------------+
+| Soil Series                         | Primary Texture                                                                                                         | Drainage Class                                    | Ksat                              |
++=====================================+=========================================================================================================================+===================================================+===================================+
+| Cassenai                            | gravelly loamy coarse sand, cobbly loamy coarse sand, gravelly coarse sand                                              | somewhat excessively drained                      | high                              |
+|                                     |                                                                                                                         |                                                   |                                   |
+|                                     |                                                                                                                         |                                                   | (1.98 to 5.95 in/hr)              |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+-----------------------------------+
+| Temo-Witefels complex               | gravelly loamy coarse sand                                                                                              | excessively drained/ somewhat excessively drained | moderately low to moderately high |
+|                                     |                                                                                                                         |                                                   |                                   |
+|                                     |                                                                                                                         |                                                   | (0.01 to 1.42 in/hr)              |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+-----------------------------------+
+| Dagget                              | very gravelly loamy coarse sand                                                                                         | excessively drained                               | moderately low to moderately high |
+|                                     |                                                                                                                         |                                                   |                                   |
+|                                     |                                                                                                                         |                                                   | (0.01 to 1.42 in/hr)              |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+-----------------------------------+
+| Whitell-Jobsis-Rock outcrop complex | very cobbly loamy coarse sand, gravelly loamy coarse sand, very gravelly coarse sand, extremely stony loamy coarse sand | somewhat excessively drained                      | moderately low to moderately high |
+|                                     |                                                                                                                         |                                                   |                                   |
+|                                     |                                                                                                                         |                                                   | (0.01 to 1.42 in/hr)              |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+-----------------------------------+
 
 : Table 2: Characteristics of major soil types of the Trout Creek watershed.
 
 ## Watershed Analysis
 
-Discharge data for USGS-10336780, the Trout Creek stream gauge, spans water years 1961-2023. Discharge minimum, maximum, mean, and standard deviation are all higher in the restoration group than in the pre-restoration group, indicating greater discharge variability (Table 3). The restoration period saw the highest daily discharge on January 2, 1997, at 12.80 mm (Figure 2). The highest annual discharge occurred in 2017, totaling 152.80 mm (Table 3). Discharge exceedance probability (p) shows slightly higher low and high flows in the restoration group compared to the pre-restoration group (Figure 3).
+Discharge data for USGS-10336780, the Trout Creek stream gauge, spans water years 1961-2023. Discharge minimum, maximum, mean, and standard deviation are all higher in the restoration group than in the pre-restoration group, indicating greater discharge variability (Table 3). The restoration period saw the highest daily discharge on January 2, 1997, at 12.80 mm (Figure 2). The highest annual discharge occurred in 2017, totaling 152.80 mm. Discharge exceedance probability (p) shows slightly higher low and high flows in the restoration group compared to the pre-restoration group (Figures 3 & 4).
 
-Precipitation, grass reference evapotranspiration, snow water equivalent, and soil moisture at a depth of 10-40 cm were downloaded from climateengine.org for water years 1981-2023. The watershed is semi-arid with an average annual precipitation of 895.91 mm. Mean annual precipitation increased slightly from 888.26 mm pre-restoration to 899.96 mm in the restoration period. Mean annual discharge also increased slightly from 337.80 mm pre-restoration to 357.09 mm post-restoration. Mean annual evapotranspiration increased from 1083.18 mm pre-restoration to 1153.28 mm post-restoration. In contrast, both mean annual snow water equivalent and soil moisture decreased from the pre-restoration to the restoration group. Snow water equivelent dropped from 311.69 mm to 297.45 mm, and soil moisture dropped from 50.04 mm to 48.83 mm. Annual trends show that evapotranspiration increased, while soil moisture decreased from 1981 to 2023 (Figure 4).
+Precipitation, grass reference evapotranspiration, snow water equivalent, and soil moisture at a depth of 10-40 cm were downloaded from climateengine.org for water years 1981-2023. The watershed is semi-arid with an average annual precipitation of 895.91 mm. Mean annual precipitation increased slightly from 888.26 mm pre-restoration to 899.96 mm in the restoration period. Mean annual discharge also increased slightly from 337.80 mm pre-restoration to 357.09 mm post-restoration. Mean annual evapotranspiration increased from 1083.18 mm pre-restoration to 1153.28 mm post-restoration. In contrast, both mean annual snow water equivalent and soil moisture decreased from the pre-restoration to the restoration group. Snow water equivalent dropped from 311.69 mm to 297.45 mm, and soil moisture dropped from 50.04 mm to 48.83 mm. Annual trends show that evapotranspiration increased, while soil moisture decreased from 1981 to 2023 (Figure 5).
 
 Three notable years occurred: 1983, 2017, and 2021. In 1983, the watershed recorded the highest annual average soil moisture (54.59 mm) and the lowest annual average evapotranspiration (941.37 mm). In 2017, the watershed experienced the highest recorded annual discharge (1052.80 mm) and precipitation (1888.09 mm). In 2021, the watershed recorded the lowest annual soil moisture (42.91 mm) and the highest annual evapotranspiration (1250.37 mm).
 
 Monthly trends show that precipitation is elevated from October through April, with a decline from May through September (Figure 6). Snow accumulates during winter, with snowmelt typically occurring between April and July. Soil moisture decreases during the spring and summer months, continuing through August and September, before increasing with higher precipitation in winter. Discharge peaks from March through August, typically in May or June. Evapotranspiration is lowest in December and January, gradually increasing and peaking in July, before gradually declining. Evapotranspiration rises in warmer months and declines in the winter months.
 
-+-----------------+--------------+--------------+------------------------+
-| **Period**      | **Max Q**    | **Min Q**    | **Standard Deviation** |
-+-----------------+--------------+--------------+------------------------+
-| Pre restoration | 801.80       | 95.88        | 182.50                 |
-+-----------------+--------------+--------------+------------------------+
-| Restoration     | 1052.80      | 108.22       | 240.12                 |
-+-----------------+--------------+--------------+------------------------+
+|                 |           |           |                        |
+|-----------------|-----------|-----------|------------------------|
+| **Period**      | **Max Q** | **Min Q** | **Standard Deviation** |
+| Pre restoration | 801.80    | 95.88     | 182.50                 |
+| Restoration     | 1052.80   | 108.22    | 240.12                 |
 
 : Table 3: Annual mean, maximum, minimum, and standard deviation for discharge (Q) of Trout Creek for the pre-restoration period (water years 1961-1995) and restoration period (1996-2023).
 
 ## Figures
 
 ```{r}
-#| fig-cap: "Figure 1: Annual discharge for Trout Creek watershed for water years 1961-2023."
+#| fig-cap: "Figure 2: Annual, daily, and total sum discharge for Trout Creek for water years 1960-2023."
 #| warning: false
-
-# Install and load necessary packages
-source('data/setup.R')
 
 # Create a table for stream gauge
 trout_creek_table <- tibble(site_no = '10336780', gauge = 'Trout Creek')
@@ -120,13 +145,6 @@ Q <- Q_annual %>%
   theme_bw() + 
   labs(x = "Water Year", y = "Annual Q (mm)", color = "Group") +
   guides(color = guide_legend(title = NULL))
-
-ggplotly()
-```
-
-```{r}
-#| fig-cap: "Figure 2: Annual, daily, and total sum discharge for Trout Creek for water years 1960-2023."
-#| warning: false
 
 # Graph annual discharge with a box plot
 Q_box <- Q_annual %>%
@@ -381,7 +399,7 @@ The restoration period shows increased variability in discharge compared to the 
 
 California Tahoe Conservancy. (2022). Greater Upper Truckee Watershed Restoration Accomplishments and Opportunities. <https://tahoe.ca.gov/programs/water-quality-watersheds/>
 
-TRCD. (2013). Conservation Projects and Environmental Improvement Projects (EIPs) in the Trout-Cold Creek Community Watershed. *Tahoe Resource Conservation District.* [https://tahoercd.org/ wp-content/uploads/2013/03/Conservation-Projects-Trout-and-Cold-Creek.pdf](https://tahoercd.org/%20wp-content/uploads/2013/03/Conservation-Projects-Trout-and-Cold-Creek.pdf)
+TRCD. (2013). Conservation Projects and Environmental Improvement Projects (EIPs) in the Trout-Cold Creek Community Watershed. *Tahoe Resource Conservation District.* [https://tahoercd.org](https://tahoercd.org/%20wp-content/uploads/2013/03/Conservation-Projects-Trout-and-Cold-Creek.pdf)
 
 USGS. (2024). StreamStats. <https://streamstats.usgs.gov/ss/>
 

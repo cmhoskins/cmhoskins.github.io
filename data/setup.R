@@ -31,7 +31,8 @@ packages <- c('tidyverse',
               'ggpubr',
               'ggpmisc',
               'sf',
-              'gridExtra')
+              'gridExtra',
+              'tmap')
 
 
 #use the packageLoad function we created on those packages
