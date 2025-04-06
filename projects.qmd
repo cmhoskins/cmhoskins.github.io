@@ -6,12 +6,6 @@ format:
     code-fold: true
 ---
 
-## **Introduction**
-
-Trout Creek was historically one of the most productive fisheries in the Tahoe Basin. In 1859, logging began in the Trout Creek Area. During the logging period, 13 miles of railroad, 16 miles of wagon haul roads, 2 miles of “V” flume and 28 logging camps were constructed in the Trout Creek watershed, causing erosion along Trout Creek and Saxton Creek (TRCD, 2013). Post-logging, the Trout Creek watershed was used to graze cattle and sheep. During this time, a ditch system and a series of small dams were developed along the tributaries of Trout Creek and Cold Creek (TRCD, 2013). Excessive grazing degraded watershed conditions. In 1996, the dams were removed from Cold Creek (California Tahoe Conservancy, 2022). Since 1996, projects within the Trout Creek watershed were conducted to restore the watershed to its historic condition. In 2021, the Caldor Fire burned areas within the Trout Creek Watershed, affecting the watershed’s streams (California Tahoe Conservancy, 2022). Moving forward, plans are being developed for restoration projects in several sections of Trout Creek and Cold Creek.  
-
-This analysis compares flow and components of the water budget for the pre-restoration period before 1996 and the restoration period from 1996 onward.
-
 ```{r}
 #| warning: false
 #| message: false
@@ -31,14 +25,28 @@ tc_point$site_id <- "USGS-10336610"
 #| echo: false
 #| messages: false
 
+tc_watershed <- tc_watershed %>%
+  mutate(layer_name = "Watershed") %>%
+  select(layer_name, everything())  
+
+tc_point <- tc_point %>%
+  mutate(layer_name = "Stream Gauge") %>%
+  select(layer_name, everything())
+
 tmap_mode("view")
 
 tm_shape(tc_watershed) +
-  tm_borders(col = "blue") +
+  tm_polygons(col = "#377eb8", alpha = 0.4, border.col = "#377eb8") +  
   tm_shape(tc_point) +
-  tm_bubbles(col = "red") +  
+  tm_bubbles(col = "#e41a1c") +  
   tm_basemap("Esri.WorldStreetMap")
 ```
+
+## **Introduction**
+
+Trout Creek was historically one of the most productive fisheries in the Tahoe Basin. In 1859, logging began in the Trout Creek Area. During the logging period, 13 miles of railroad, 16 miles of wagon haul roads, 2 miles of “V” flume and 28 logging camps were constructed in the Trout Creek watershed, causing erosion along Trout Creek and Saxton Creek (TRCD, 2013). Post-logging, the Trout Creek watershed was used to graze cattle and sheep. During this time, a ditch system and a series of small dams were developed along the tributaries of Trout Creek and Cold Creek (TRCD, 2013). Excessive grazing degraded watershed conditions. In 1996, the dams were removed from Cold Creek (California Tahoe Conservancy, 2022). Since 1996, projects within the Trout Creek watershed were conducted to restore the watershed to its historic condition. In 2021, the Caldor Fire burned areas within the Trout Creek Watershed, affecting the watershed’s streams (California Tahoe Conservancy, 2022). Moving forward, plans are being developed for restoration projects in several sections of Trout Creek and Cold Creek.  
+
+This analysis compares flow and components of the water budget for the pre-restoration period before 1996 and the restoration period from 1996 onward.
 
 ## **Watershed Characteristics**
 
@@ -84,26 +92,6 @@ The highest elevation of Trout Creek Watershed Is 10878 feet and the minimum ele
 ## Watershed Analysis
 
 Discharge data for USGS-10336780, the Trout Creek stream gauge, spans water years 1961-2023. Precipitation, grass reference evapotranspiration, snow water equivalent, and soil moisture at a depth of 10-40 cm were downloaded from climateengine.org for water years 1981-2023. Precipitation and grass reference evapotranspiration trends are calculated from the dataset GridMET - 4km -daily. Snow water equivelent and soil moisture trends are calculated from the dataset WILDAS - 1.1 km - daily.
-
-Discharge minimum, maximum, mean, and standard deviation are all higher in the restoration group than in the pre-restoration group, indicating greater discharge variability (Table 3). The restoration period saw the highest daily discharge on January 2, 1997, at 12.80 mm (Figure 2). The highest annual discharge occurred in 2017, totaling 152.80 mm. Discharge exceedance probability (p) shows slightly higher low and high flows in the restoration group compared to the pre-restoration group (Figures 3 & 4).
-
-The watershed is semi-arid with an average annual precipitation of 895.91 mm and an aridity index (P/ET) of 0.79. The runoff ratio (Q/P) is 0.39, meaning that over half of precipitation does not become runoff. This could be due to evapotranspiration and the watershed's excessively drained soils.
-
-Mean annual precipitation increased slightly from 888.26 mm pre-restoration to 899.96 mm in the restoration period. Mean annual discharge also increased slightly from 337.80 mm pre-restoration to 357.09 mm post-restoration. Mean annual evapotranspiration increased from 1083.18 mm pre-restoration to 1153.28 mm post-restoration. In contrast, both mean annual snow water equivalent and soil moisture decreased from the pre-restoration to the restoration group. Snow water equivalent dropped from 311.69 mm to 297.45 mm, and soil moisture dropped from 50.04 mm to 48.83 mm. Annual trends show that evapotranspiration increased, while soil moisture decreased from 1981 to 2023 (Figure 5).
-
-Three notable years occurred: 1983, 2017, and 2021. In 1983, the watershed recorded the highest annual average soil moisture (54.59 mm) and the lowest annual average evapotranspiration (941.37 mm). In 2017, the watershed experienced the highest recorded annual discharge (1052.80 mm) and precipitation (1888.09 mm). In 2021, the watershed recorded the lowest annual soil moisture (42.91 mm) and the highest annual evapotranspiration (1250.37 mm). The Caldor Fire occurred during water years 2021 and 2022. Specifically, the Caldor Fire started on 8/14/2021 and was fully contained on 10/25/2021. Rain and snowmelt inputs were low from June to September of 2021, causing soil moisture to decline during that period (Figure 7). A precipitation event in mid-October of 2021 increased soil moisture and coincided with the containment of the fire.
-
-Monthly trends show that precipitation is elevated from October through April, with a decline from May through September (Figure 6). Snow accumulates during winter, with snowmelt typically occurring between April and July. Soil moisture decreases during the spring and summer months, continuing through August and September, before increasing with higher precipitation in winter. Discharge peaks from March through August, typically in May or June. Evapotranspiration is lowest in December and January, gradually increasing and peaking in July, before gradually declining. Evapotranspiration rises in warmer months and declines in the winter months.
-
-|                 |           |           |                        |
-|-----------------|-----------|-----------|------------------------|
-| **Period**      | **Max Q** | **Min Q** | **Standard Deviation** |
-| Pre restoration | 801.80    | 95.88     | 182.50                 |
-| Restoration     | 1052.80   | 108.22    | 240.12                 |
-
-: Table 3: Annual mean, maximum, minimum, and standard deviation for discharge (Q) of Trout Creek for the pre-restoration period (water years 1961-1995) and restoration period (1996-2023).
-
-## Figures
 
 ```{r}
 #| fig-cap: "Figure 2: Annual, daily, and total sum discharge for Trout Creek for water years 1960-2023."
@@ -179,6 +167,10 @@ Q_daily <- trout_creek %>%
 ggarrange(Q_violin, Q_box, Q_daily, Q, ncol = 2, nrow = 2, common.legend = TRUE, legend = "bottom")
 ```
 
+Discharge minimum, maximum, mean, and standard deviation are all higher in the restoration group than in the pre-restoration group, indicating greater discharge variability (Table 3). The restoration period saw the highest daily discharge on January 2, 1997, at 12.80 mm (Figure 2). The highest annual discharge occurred in 2017, totaling 152.80 mm. Discharge exceedance probability (p) shows slightly higher low and high flows in the restoration group compared to the pre-restoration group (Figures 3 & 4).
+
+The watershed is semi-arid with an average annual precipitation of 895.91 mm and an aridity index (P/ET) of 0.79. The runoff ratio (Q/P) is 0.39, meaning that over half of precipitation does not become runoff. This could be due to evapotranspiration and the watershed's excessively drained soils.
+
 ```{r}
 #| fig-cap: "Figure 3: Discharge(Q) exceedance probability (p) for Trout Creek watershed for water years 1961-2023."
 #| warning: false
@@ -232,6 +224,8 @@ fdc_plot_log <- fdc %>%
 
 ggplotly()
 ```
+
+Mean annual precipitation increased slightly from 888.26 mm pre-restoration to 899.96 mm in the restoration period. Mean annual discharge also increased slightly from 337.80 mm pre-restoration to 357.09 mm post-restoration. Mean annual evapotranspiration increased from 1083.18 mm pre-restoration to 1153.28 mm post-restoration. In contrast, both mean annual snow water equivalent and soil moisture decreased from the pre-restoration to the restoration group. Snow water equivalent dropped from 311.69 mm to 297.45 mm, and soil moisture dropped from 50.04 mm to 48.83 mm. Annual trends show that evapotranspiration increased, while soil moisture decreased from 1981 to 2023 (Figure 5).
 
 ```{r}
 #| fig-cap: "Figure 5: Annual sum for precipitation(P), grass reference evapotranspiration(ET), and discharge (Q). Annual peak snow water equivalent(SWE). Annual mean soil moisture(SM). Values for water years 1980-2023."
@@ -320,6 +314,8 @@ SM <- climate_annual %>%
 ggarrange(P,ET,SWE,SM,Q_1981, ncol=2,nrow=3, common.legend = TRUE, legend = "bottom")
 ```
 
+Three notable years occurred: 1983, 2017, and 2021. In 1983, the watershed recorded the highest annual average soil moisture (54.59 mm) and the lowest annual average evapotranspiration (941.37 mm). In 2017, the watershed experienced the highest recorded annual discharge (1052.80 mm) and precipitation (1888.09 mm). In 2021, the watershed recorded the lowest annual soil moisture (42.91 mm) and the highest annual evapotranspiration (1250.37 mm). The Caldor Fire occurred during water years 2021 and 2022. Specifically, the Caldor Fire started on 8/14/2021 and was fully contained on 10/25/2021. Rain and snowmelt inputs were low from June to September of 2021, causing soil moisture to decline during that period (Figure 7). A precipitation event in mid-October of 2021 increased soil moisture and coincided with the containment of the fire.
+
 ```{r}
 #| fig-cap: "Figure 6: Monthly averages for Trout Creek watershed for water years 1961 – 2023. Mean monthly sums for precipitation(P), grass reference evapotranspiration(ET), and discharge (Q). Mean monthly snow water equivalent(SWE) and soil moisture(SM)."
 #| warning: false
@@ -394,6 +390,16 @@ ggarrange(
   common.legend = TRUE,  
   legend = "bottom")
 ```
+
+Monthly trends show that precipitation is elevated from October through April, with a decline from May through September (Figure 6). Snow accumulates during winter, with snowmelt typically occurring between April and July. Soil moisture decreases during the spring and summer months, continuing through August and September, before increasing with higher precipitation in winter. Discharge peaks from March through August, typically in May or June. Evapotranspiration is lowest in December and January, gradually increasing and peaking in July, before gradually declining. Evapotranspiration rises in warmer months and declines in the winter months.
+
+|                 |           |           |                        |
+|-----------------|-----------|-----------|------------------------|
+| **Period**      | **Max Q** | **Min Q** | **Standard Deviation** |
+| Pre restoration | 801.80    | 95.88     | 182.50                 |
+| Restoration     | 1052.80   | 108.22    | 240.12                 |
+
+: Table 3: Annual mean, maximum, minimum, and standard deviation for discharge (Q) of Trout Creek for the pre-restoration period (water years 1961-1995) and restoration period (1996-2023).
 
 ```{r}
 #| fig-cap: "Figure 7: Rain, snowmelt, and soil moisture depth in mm for water years 2021 and 2022 (10/01/2020 – 9/30/2022) for Trout Creek watershed."
