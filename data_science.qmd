@@ -9,7 +9,7 @@ This page highlights skills I've learned by completing labs from **523 C: Enviro
 ```{r}
 #| warning: FALSE
 #| echo: FALSE
-#| fig-cap: "Weighted mean center of the COVID-19 outbreak"
+#| fig-cap: "Weighted Mean Center of the COVID-19 Outbreak"
 knitr::include_graphics("media/weighted_means.png")
 ```
 
@@ -21,7 +21,7 @@ View the lab here: [Lab 1 - COVID Trends](https://cmhoskins.github.io/csu_523c/l
 ```{r}
 #| warning: FALSE
 #| echo: FALSE
-#| fig-cap: "Map of major cities within 100 miles of the U.S. border"
+#| fig-cap: "Map of the Most Populous cities in Each State Within 100 Miles of the U.S. Border"
 knitr::include_graphics("media/border-2.png")
 ```
 
@@ -45,7 +45,7 @@ View the lab here: [Lab 3 - Tessallations, Point-in-Polygon](https://cmhoskins.g
 ```{r}
 #| warning: FALSE
 #| echo: FALSE
-#| fig-cap: "Staellite imagery raster layers of 5 indices for Palo, Iowa during the flooding event on September 26, 2016)"
+#| fig-cap: "Statellite imagery raster layers of 5 indices for Palo, Iowa during the flooding event on September 26, 2016"
 knitr::include_graphics("media/indices.png")
 ```
 
