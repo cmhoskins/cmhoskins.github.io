@@ -18,4 +18,4 @@ View the StoryMap here: [Pyramid Lake Cyanobacterial Blooms](https://storymaps.a
 
 This project examines the hydrology of the Trout Creek watershed, located on the southern side of Lake Tahoe, CA for water years 1960-2023. Using datasets from USGS and climateengine.org, I analyzed water budget components including precipitation, evapotranspiration, snow water equivalent, and soil moisture. The analysis compares pre- and post-restoration periods of the watershed, with results visualized using the R packages `ggplot2`, `tmap`, and `plotly`. 
 
-View the project here: [Trout Creek Watershed Analysis](https://cmhoskins.github.io/watershed_analysis.html)
+View the project here: [Trout Creek Watershed Analysis](https://cmhoskins.github.io/docs/watershed_analysis.html)
