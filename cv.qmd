@@ -1,0 +1,66 @@
+---
+title: "Resume"
+author: "Colleen Hoskins ([colleen.hoskins@colostate.edu](mailto:colleen.hoskins@colostate.edu))"
+---
+
+## EDUCATION
+
+#### COLORADO STATE UNIVERSITY \| Fort Collins, CO
+
+##### P.S.M. Master of Ecosystem Science and Sustainability \| *December 2025*
+
+-   Focus: Water Resources and Data Analytics
+
+#### UNIVERSITY OF NEVADA \| Reno, NV
+
+##### B.S. Environmental Science \| *June 2017*
+
+## EXPERIENCE
+
+#### COLORADO STATE UNIVERSITY - ROSSyndicate \| Fort Collins, CO
+
+##### Water Database Specialist \| *January 2025 – Present*
+
+-   Developing a geospatial database of water supplies for all US National Parks
+-   Researching, digitizing, and visualizing water resources data using Excel, R and GIS
+-   Supporting research to evaluate the security of National Park water supplies
+
+#### EASTERN NEVADA LANDSCAPE COALITION \| Carson City, NV; Elko, NV
+
+##### Weeds Crew Lead \| *June 2023 - September 2023*
+
+##### Ecological Monitoring Crew Lead \| *April 2019 - October 2019*
+
+**Leadership**
+
+-   Led a weeds crew in surveying, inventorying, monitoring, and treating 3,700+ acres of public BLM land, developing treatment plans based on weed type, plant growth stage and infestation severity to reduce invasive species and support native ecosystems
+
+-   Led an AIM crew in assessing, inventorying, and monitoring 100+ plots on BLM rangelands of Eastern Nevada to evaluate land health, post-wildfire rehabilitation efforts and wildlife habitat
+
+**Mapping and Data Management**
+
+-   Mapped and photographed invasive species using GIS, Field Maps and Survey 123, generating spatial data to inform land management strategies
+
+-   Analyzed field data and maintained data quality by inputting and verifying information into a DIMA database (Microsoft Access), ensuring the accuracy of long-term ecological monitoring records
+
+#### TKPOA \| South Lake Tahoe, CA
+
+##### Water Quality Intern \| *April 2021 - November 2021*
+
+##### Water Quality Technician \| *April 2022 - June 2022*
+
+-   Collected water quality data from 70 locations at 5 depths in the water column using YSI ProDSS and OTT Hydromet HL4 Sonde devices to assess the effect of invasive weeds on water quality
+-   Mapped 172 acres of waterways monthly during the plant growth season using boats equipped with sonar to visualize plant density Monitored floating plant fragments daily to track species percentages and collected 60+ cubic feet of weed fragments over 80 days
+
+#### HEAVENLY SKI RESORT \| South Lake Tahoe, CA
+
+##### Ski Instructor \| *November - April, 2020 - 2024*
+
+-   Taught fundamental ski skills while promoting slope etiquette, mountain safety, and teamwork
+-   Created a fun learning environment to encourage students to develop a lifelong passion for winter sports Organized students into classes based on skill level and assigned ski instructors to each class
+
+## Skills
+
+-   **Technical:** R, GIS, MS Office Suite
+-   **Field:** GPS navigation, UTV and 4x4 off-road driving, boat operation, trailer towing
+-   **Leadership:** Small group management and training, conflict mitigation, emergency response

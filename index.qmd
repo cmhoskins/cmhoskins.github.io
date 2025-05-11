@@ -11,4 +11,4 @@ about:
       href: mailto:colleen.hoskins@colostate.edu
 ---
 
-Hi! I am Colleen, a graduate student studying water resources at Colorado State University. I am passionate about water sustainability and ecosystem conservation. On this site, you'll find a watershed analysis of Trout Creek Watershed in Lake Tahoe, CA. This project highlights my interests in R coding, hydraulic analysis, and data visualization.
+I’m a graduate student at Colorado State University studying water resources and data analysis. I work for the [ROSSyndicate](https://rossyndicate.com/) managing a database of water sources across U.S. National Parks. I spend my days investigating, mapping, and compiling records of surface and groundwater sources available to park visitors and staff. Before attending CSU, I worked in environmental conservation, where I led field crews, conducted ecosystem monitoring, and researched methods to prevent the spread of [aquatic invasive weeds](https://tahoekeysweeds.org/). I am interested in using data science to support water resources research and management.
