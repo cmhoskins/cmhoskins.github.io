@@ -32,11 +32,15 @@ author: "Colleen Hoskins ([colleen.hoskins@colostate.edu](mailto:colleen.hoskins
 ##### Ecological Monitoring Crew Lead \| *April 2019 - October 2019*
 
 **Leadership**
+
 -   Led a weeds crew in surveying, inventorying, monitoring, and treating 3,700+ acres of public BLM land, developing treatment plans based on weed type, plant growth stage and infestation severity to reduce invasive species and support native ecosystems
+
 -   Led an AIM crew in assessing, inventorying, and monitoring 100+ plots on BLM rangelands of Eastern Nevada to evaluate land health, post-wildfire rehabilitation efforts and wildlife habitat
 
 **Mapping and Data Management**
+
 -   Mapped and photographed invasive species using GIS, Field Maps and Survey 123, generating spatial data to inform land management strategies
+
 -   Analyzed field data and maintained data quality by inputting and verifying information into a DIMA database (Microsoft Access), ensuring the accuracy of long-term ecological monitoring records
 
 #### TKPOA \| South Lake Tahoe, CA
