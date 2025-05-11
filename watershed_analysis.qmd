@@ -450,7 +450,7 @@ The restoration period shows increased variability in discharge compared to the 
 
 California Tahoe Conservancy. (2022). Greater Upper Truckee Watershed Restoration Accomplishments and Opportunities. <https://tahoe.ca.gov/programs/water-quality-watersheds/>
 
-TRCD. (2013). Conservation Projects and Environmental Improvement Projects (EIPs) in the Trout-Cold Creek Community Watershed. *Tahoe Resource Conservation District.* [https://tahoercd.org](https://tahoercd.org/%20wp-content/uploads/2013/03/Conservation-Projects-Trout-and-Cold-Creek.pdf)
+TRCD. (2013). Conservation Projects and Environmental Improvement Projects (EIPs) in the Trout-Cold Creek Community Watershed. *Tahoe Resource Conservation District.* <https://tahoercd.org>
 
 ClimateEngine.org. (2024). <https://www.climateengine.org>
 

@@ -59,7 +59,7 @@ author: "Colleen Hoskins ([colleen.hoskins@colostate.edu](mailto:colleen.hoskins
 -   Taught fundamental ski skills while promoting slope etiquette, mountain safety, and teamwork
 -   Created a fun learning environment to encourage students to develop a lifelong passion for winter sports Organized students into classes based on skill level and assigned ski instructors to each class
 
-## Skills
+## SKILLS
 
 -   **Technical:** R, GIS, MS Office Suite
 -   **Field:** GPS navigation, UTV and 4x4 off-road driving, boat operation, trailer towing
