@@ -1,6 +1,6 @@
 ---
 title: "Colleen Hoskins"
-image: media/profile.jpeg
+image: media/snow_profile_2.jpg
 toc: false
 about: 
   template: jolla
