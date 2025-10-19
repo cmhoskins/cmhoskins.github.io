@@ -4,12 +4,16 @@ image: media/IMG_5024.JPEG
 toc: false
 about: 
   template: marquee
+  image-shape: rectangle
   links:
-    - text: LinkedIn
+    - icon: linkedin
+      text: LinkedIn
       href: https://www.linkedin.com/in/colleen-hoskins/
-    - text: Email
+    - icon: email
+      text: Email
       href: mailto:colleen.hoskins@colostate.edu
-    - text: GitHub
+    - icon: github
+      text: GitHub
       href: https://github.com/cmhoskins
 ---
 
