@@ -2,7 +2,7 @@
    Sandstone Theme (Light)
    ========================= */
 a {
-  color: #3A6D9C;           /* medium steel blue for readability */
+  color: #008000;           /* medium steel blue for readability */
   text-decoration: none;
   transition: text-decoration 0.2s ease, color 0.2s ease;
   font-weight: normal;
@@ -17,7 +17,7 @@ a:focus {
 
 /* PDF links in Sandstone theme */
 a[href$=".pdf"] {
-  color: #3A6D9C;           /* same as regular links */
+  color: #008000;           /* same as regular links */
   font-size: 12pt;          /* larger font */
   text-decoration: none;
   font-weight: normal;
@@ -36,7 +36,7 @@ a[href$=".pdf"]:focus {
    ========================= */
 @media (prefers-color-scheme: dark) {
   a {
-    color: #93D2D9;          /* solar teal for regular links */
+    color: #008000;          /* solar teal for regular links */
     text-decoration: none;
     font-weight: normal;
     font-family: inherit;
@@ -51,7 +51,7 @@ a[href$=".pdf"]:focus {
 
   /* PDF links in Solar theme */
   a[href$=".pdf"] {
-    color: #93D2D9;          /* same as regular links */
+    color: #008000;          /* same as regular links */
     font-size: 12pt;
     text-decoration: none;
     font-weight: normal;
