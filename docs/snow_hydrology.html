@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Science Labs – Colleen Hoskins</title>
+<title>snow_hydrology – Colleen Hoskins</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,8 +39,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3fc9ff814db81acb0a76849ee5410c90.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-ce8d7cdd3d4f6f2a4dadc0df44fb1a1d.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-df479d6c4d77d0e0dfbcb5361179d7fd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-d9598b56567d6db39481eb32cff34dbe.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./data_science.html" aria-current="page"> 
+    <a class="nav-link" href="./data_science.html"> 
 <span class="menu-text">Data Science Labs</span></a>
   </li>  
   <li class="nav-item">
@@ -118,106 +118,33 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#covid-trends" id="toc-covid-trends" class="nav-link active" data-scroll-target="#covid-trends">COVID Trends</a></li>
-  <li><a href="#distances-and-projections" id="toc-distances-and-projections" class="nav-link" data-scroll-target="#distances-and-projections">Distances and Projections</a></li>
-  <li><a href="#tessallations-point-in-polygon" id="toc-tessallations-point-in-polygon" class="nav-link" data-scroll-target="#tessallations-point-in-polygon">Tessallations, Point-in-Polygon</a></li>
-  <li><a href="#rasters-remote-sensing" id="toc-rasters-remote-sensing" class="nav-link" data-scroll-target="#rasters-remote-sensing">Rasters &amp; Remote Sensing</a></li>
-  <li><a href="#machine-learning-in-hydrology" id="toc-machine-learning-in-hydrology" class="nav-link" data-scroll-target="#machine-learning-in-hydrology">Machine Learning in Hydrology</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Data Science Labs</h1></header>
+<main class="content column-page" id="quarto-document-content">
 
-<header id="title-block-header">
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">snow_hydrology</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
 
 
 </header>
 
 
-<p>This page highlights skills I’ve learned by completing labs from <strong>523 C: Environmental Data Science Applications for Water Resources</strong> taught at Colorado State University by Mike Johnson, PhD.</p>
-<section id="covid-trends" class="level2">
-<h2 class="anchored" data-anchor-id="covid-trends">COVID Trends</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="media/weighted_means.png" class="img-fluid figure-img" width="672"></p>
-<figcaption>Weighted Mean Center of the COVID-19 Outbreak</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<p>Through this lab, I developed skills in vector data analysis and visualization using COVID-19 data. I gained experience in data wrangling with <code>dplyr</code>, <code>tidyverse</code>, and <code>lubridate</code>; data visualization with <code>ggplot2</code> and <code>flextable</code>; and building and evaluating a linear model. I also used <code>sf</code> and <code>zoo</code> for spatial and temporal data analysis.</p>
-<p>View the lab here: <a href="https://cmhoskins.github.io/csu_523c/lab-01.html">Lab 1 - COVID Trends</a></p>
-</section>
-<section id="distances-and-projections" class="level2">
-<h2 class="anchored" data-anchor-id="distances-and-projections">Distances and Projections</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="media/border-2.png" class="img-fluid figure-img" width="672"></p>
-<figcaption>Map of the Most Populous cities in Each State Within 100 Miles of the U.S. Border</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<p>In this lab, I continued to build on my vector data wrangling and visualization skills. I explored the structure and properties of sf, sfc, and sfg objects, and used the <code>sf</code> package to work with spatial data. I practiced transforming coordinate reference systems, calculating distances, and handling spatial geometries. Additionally, I expanded my data visualization techniques using <code>mapview</code> and <code>gglighlight</code>.</p>
-<p>View the lab here: <a href="https://cmhoskins.github.io/csu_523c/lab-02.html">Lab 2 - Distances and Projections</a></p>
-</section>
-<section id="tessallations-point-in-polygon" class="level2">
-<h2 class="anchored" data-anchor-id="tessallations-point-in-polygon">Tessallations, Point-in-Polygon</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="media/hydroelectric.png" class="img-fluid figure-img" width="672"></p>
-<figcaption>Distribution of Hydroelectric Dams across the USA with Hexagonal Grid Tessallation (above mean + 1 standard deviations)</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<p>By completing this lab, I learned how to implement tessellations for spatial data analysis and learned about the Modifiable Areal Unit Problem (MAUP). I used the <code>AOI</code> package to define an area of interest encompassing CONUS states. I then used Voronoi, triangulated, square grid, and hexagonal grid tessellations to examine the spatial distribution of US dams. I used point-in-polygon analysis and <code>rmapshaper</code> to simplify geometries, and wrote functions to streamline analysis and visualization. Adding to my data visualization skills, I created an interactive map using <code>leaflet</code> and used <code>kableExtra</code> to create a polished table.</p>
-<p>View the lab here: <a href="https://cmhoskins.github.io/csu_523c/lab-03.html">Lab 3 - Tessallations, Point-in-Polygon</a></p>
-</section>
-<section id="rasters-remote-sensing" class="level2">
-<h2 class="anchored" data-anchor-id="rasters-remote-sensing">Rasters &amp; Remote Sensing</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="media/indices.png" class="img-fluid figure-img" width="672"></p>
-<figcaption>Statellite imagery raster layers of 5 indices for Palo, Iowa during the flooding event on September 26, 2016</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<p>In this lab, I practiced working with raster data by creating flood maps using satellite imagery from a flooding event along the Cedar and Wapsipinicon rivers. I used <code>terra</code> and <code>rstac</code> to access and process Landsat Collection 2 imagery, and then RGB composites for initial visualization. Using raster algebra, I calculated spectral indices, applied thresholds, and used the <code>stats</code> package to extract flood clusters. I then categorized flood extent and classified flood certainty.</p>
-<p>View the lab here: <a href="https://cmhoskins.github.io/csu_523c/lab-04.html">Lab 4 - Raster &amp; Remote Sensing</a></p>
-</section>
-<section id="machine-learning-in-hydrology" class="level2">
-<h2 class="anchored" data-anchor-id="machine-learning-in-hydrology">Machine Learning in Hydrology</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="media/model-pet.png" class="img-fluid figure-img" width="672"></p>
-<figcaption>Random Forest Model Using PET and Precipitation to Predict Streamflow</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<p>Through this lab, I explored predictive modeling using the <code>tidymodels</code> framework and the Catchment Attributes and Meteorology for Large-samples Studies (CAMELS) dataset. I learned best practices for building reproducable models. I applied and compared four modeling techniques: linear regression, random forest, <code>xgboost</code> and neural networks using <code>baguette</code>. I evaluated model performance using RMSE, R-squared, and MAE, and visualized results using the <code>vip</code>and <code>workflows</code> packages.</p>
-<p>View the lab here: <a href="https://cmhoskins.github.io/csu_523c/lab-05.html">Lab 5 - Machine Learning in Hydrology</a></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

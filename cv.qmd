@@ -2,7 +2,7 @@
 title: "Resume"
 author: "Colleen Hoskins ([colleen.hoskins@colostate.edu](mailto:colleen.hoskins@colostate.edu))"
 ---
-
+[Resume](media/Resume%20(PDF).pdf){.btn new-tab=true}
 ## EDUCATION
 
 #### COLORADO STATE UNIVERSITY \| Fort Collins, CO
@@ -10,6 +10,7 @@ author: "Colleen Hoskins ([colleen.hoskins@colostate.edu](mailto:colleen.hoskins
 ##### P.S.M. Master of Ecosystem Science and Sustainability \| *December 2025*
 
 -   Focus: Water Resources and Data Analytics
+-   Leadership: P.S.M. Representative for the ESS Graduate Program Committee
 
 #### UNIVERSITY OF NEVADA \| Reno, NV
 
@@ -19,11 +20,10 @@ author: "Colleen Hoskins ([colleen.hoskins@colostate.edu](mailto:colleen.hoskins
 
 #### COLORADO STATE UNIVERSITY - ROSSyndicate \| Fort Collins, CO
 
-##### Water Database Specialist \| *January 2025 – Present*
+##### Water Database Specialist \| *January 2025 – August 2025*
 
--   Developing a geospatial database of water supplies for all US National Parks
--   Researching, digitizing, and visualizing water resources data using Excel, R and GIS
--   Supporting research to evaluate the security of National Park water supplies
+-   Developed a nation-wide geospatial database of drinking water sources for US National Parks to forecast the security of water supplies for visitors and staff
+-   Designed reproducible workflows in R and created standardized operating procedures, improving efficiency and accuracy of database management protocols
 
 #### EASTERN NEVADA LANDSCAPE COALITION \| Carson City, NV; Elko, NV
 
@@ -31,17 +31,23 @@ author: "Colleen Hoskins ([colleen.hoskins@colostate.edu](mailto:colleen.hoskins
 
 ##### Ecological Monitoring Crew Lead \| *April 2019 - October 2019*
 
+**Conservation**
+
+-   Surveyed and treated 3,700+ acres of public land, developing invasive plant treatments based on species, growth stage, and infestation severity to support healthy native ecosystems
+
+-   Assessed, inventoried, and monitored 100+ plots on rangelands of Eastern Nevada to evaluate ecological indicators and measure the effectiveness of post-wildfire restoration efforts
+
 **Leadership**
 
--   Led a weeds crew in surveying, inventorying, monitoring, and treating 3,700+ acres of public BLM land, developing treatment plans based on weed type, plant growth stage and infestation severity to reduce invasive species and support native ecosystems
+-   Coordinated with the Bureau of Land Management to establish seasonal priorities, plan resources, and meet critical deadlines
 
--   Led an AIM crew in assessing, inventorying, and monitoring 100+ plots on BLM rangelands of Eastern Nevada to evaluate land health, post-wildfire rehabilitation efforts and wildlife habitat
+-   Directed project execution, mentored crew members, and managed logistics including schedules, vehicles, equipment, and meals
 
-**Mapping and Data Management**
+**Data Management**
 
--   Mapped and photographed invasive species using GIS, Field Maps and Survey 123, generating spatial data to inform land management strategies
+-   Captured and shared spatial data using ArcGIS Field Maps and Survey 123, integrating seasonal information with decades of historical monitoring data to track land cover changes
 
--   Analyzed field data and maintained data quality by inputting and verifying information into a DIMA database (Microsoft Access), ensuring the accuracy of long-term ecological monitoring records
+-   Applied quality assurance protocols to accurately record and organize field data
 
 #### TKPOA \| South Lake Tahoe, CA
 
@@ -50,17 +56,44 @@ author: "Colleen Hoskins ([colleen.hoskins@colostate.edu](mailto:colleen.hoskins
 ##### Water Quality Technician \| *April 2022 - June 2022*
 
 -   Collected water quality data from 70 locations at 5 depths in the water column using YSI ProDSS and OTT Hydromet HL4 Sonde devices to assess the effect of invasive weeds on water quality
--   Mapped 172 acres of waterways monthly during the plant growth season using boats equipped with sonar to visualize plant density Monitored floating plant fragments daily to track species percentages and collected 60+ cubic feet of weed fragments over 80 days
+-   Mapped 172 acres of waterways monthly during the plant growth season using boats equipped with sonar to visualize plant density
+-   Monitored floating plant fragments daily to track species percentages and collected 60+ cubic feet of weed fragments over 80 days
 
 #### HEAVENLY SKI RESORT \| South Lake Tahoe, CA
 
 ##### Ski Instructor \| *November - April, 2020 - 2024*
 
 -   Taught fundamental ski skills while promoting slope etiquette, mountain safety, and teamwork
--   Created a fun learning environment to encourage students to develop a lifelong passion for winter sports Organized students into classes based on skill level and assigned ski instructors to each class
+-   Created a fun learning environment to encourage students to develop a lifelong passion for winter sports
 
 ## SKILLS
 
--   **Technical:** R, GIS, MS Office Suite
--   **Field:** GPS navigation, UTV and 4x4 off-road driving, boat operation, trailer towing
--   **Leadership:** Small group management and training, conflict mitigation, emergency response
+-   **Technical:** R (proficient), ArcGIS Pro (proficient), Python for GIS, JavaScript for Google Earth Engine, Microsoft Office Suite
+-   **Field:** GPS navigation, GIS-based data collection (FieldMaps, Survey123, Avenza), off-road vehicle operation (UTV/4x4), boat operation, trailer towing
+-   **Leadership:** small group management, interagency collaboration, conflict mitigation, emergency response
+-   **Professional:** team-oriented, dedicated, methodical, conscientious
+
+## RELEVANT COURSEWORK
+
+### Colorado State University
+
+-   Advanced Snow Hydrology
+-   Land Use Hydrology
+-   Water Law
+-   Sustaining River Ecosystems in a Changing World
+-   Reproducible Remote Sensing Models
+-   GIS and Data Analysis for Water Resources
+-   Python for GIS
+-   Environmental Data Science Applications for Water Resources
+
+### University of Nevada, Reno
+
+-   Ecohydrology
+-   Wetland Ecology and Management
+-   Meteorology
+-   Rangeland Management
+-   Forest and Rangeland Soils
+-   Rangeland-Livestock Interactions
+-   Environmental Law
+-   Energy Politics and Policy
+-   Compliance with NEPA

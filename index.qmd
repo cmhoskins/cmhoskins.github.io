@@ -1,14 +1,16 @@
 ---
 title: "Colleen Hoskins"
-image: media/snow_profile_2.jpg
+image: media/IMG_5024.JPEG
 toc: false
 about: 
-  template: jolla
+  template: marquee
   links:
     - text: LinkedIn
       href: https://www.linkedin.com/in/colleen-hoskins/
     - text: Email
       href: mailto:colleen.hoskins@colostate.edu
+    - text: GitHub
+      href: https://github.com/cmhoskins
 ---
 
-I’m a graduate student at Colorado State University studying water resources and data analysis. I work for the [ROSSyndicate](https://rossyndicate.com/) managing a database of water sources across U.S. National Parks. I spend my days investigating, mapping, and compiling records of surface and groundwater sources available to park visitors and staff. Before attending CSU, I worked in environmental conservation, where I led field crews, conducted ecosystem monitoring, and researched methods to prevent the spread of [aquatic invasive weeds](https://tahoekeysweeds.org/). I am interested in using data science to support water resources research and management.
+I’m a graduate student in the Ecosystem Science and Sustainability program at Colorado State University, focusing on water resources and data science. Earlier in my career, I led conservation field crews in Nevada and California, restoring ecosystems impacted by terrestrial and aquatic invasive species. Researching water quality and aquatic plants inspired me to learn more about sustainable management of water resources. In graduate school, I’ve worked to develop specialized knowledge in hydrology, water law, and water resources planning while building skills in geospatial analysis and data science. I’m interested in applying data and models to drive sustainable management decisions.

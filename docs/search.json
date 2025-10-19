@@ -4,7 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "For this project, I used ArcGIS Pro to analyze and visualize cyanobacterial blooms in Pyramid Lake, NV. NDVI was calculated from Landsat 8-9 imagery for four bloom events, and a threshold of 0.25 was applied to identify areas of potential cyanobacterial activity. The slider app above displays a vectorized representation of NDVI for blooms that occurred on 10/29/2017, 9/22/2021, 10/6/2023 and 10/8/2024.\nView the StoryMap here: Pyramid Lake Cyanobacterial Blooms"
+    "text": "View the Silvery Minnow Bulletin (PDF)\nThis group project for FW 568: Sustaining River Ecosystems in a Changing World, taught by LeRoy Poff and Yoichiro Kanno, presents an informative bulletin designed to raise awareness about endangered silver minnow recovery in the Rio Grande and presents a fictional recovery plan. Co-authors: Maddie Catterson and Carolyn Rothmann"
   },
   {
     "objectID": "projects.html#introduction",
@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "Colleen Hoskins",
     "section": "",
-    "text": "I’m a graduate student at Colorado State University studying water resources and data analysis. I work for the ROSSyndicate managing a database of water sources across U.S. National Parks. I spend my days investigating, mapping, and compiling records of surface and groundwater sources available to park visitors and staff. Before attending CSU, I worked in environmental conservation, where I led field crews, conducted ecosystem monitoring, and researched methods to prevent the spread of aquatic invasive weeds. I am interested in using data science to support water resources research and management."
+    "text": "I’m a graduate student in the Ecosystem Science and Sustainability program at Colorado State University, focusing on water resources and data science. Earlier in my career, I led conservation field crews in Nevada and California, restoring ecosystems impacted by terrestrial and aquatic invasive species. Researching water quality and aquatic plants inspired me to learn more about sustainable management of water resources. In graduate school, I’ve worked to develop specialized knowledge in hydrology, water law, and water resources planning while building skills in geospatial analysis and data science. I’m interested in applying data and models to drive sustainable management decisions."
   },
   {
     "objectID": "cv.html",
@@ -74,7 +74,7 @@
     "href": "cv.html#experience",
     "title": "Resume",
     "section": "EXPERIENCE",
-    "text": "EXPERIENCE\n\nCOLORADO STATE UNIVERSITY - ROSSyndicate | Fort Collins, CO\n\nWater Database Specialist | January 2025 – Present\n\nDeveloping a geospatial database of water supplies for all US National Parks\nResearching, digitizing, and visualizing water resources data using Excel, R and GIS\nSupporting research to evaluate the security of National Park water supplies\n\n\n\n\nEASTERN NEVADA LANDSCAPE COALITION | Carson City, NV; Elko, NV\n\nWeeds Crew Lead | June 2023 - September 2023\n\n\nEcological Monitoring Crew Lead | April 2019 - October 2019\nLeadership\n\nLed a weeds crew in surveying, inventorying, monitoring, and treating 3,700+ acres of public BLM land, developing treatment plans based on weed type, plant growth stage and infestation severity to reduce invasive species and support native ecosystems\nLed an AIM crew in assessing, inventorying, and monitoring 100+ plots on BLM rangelands of Eastern Nevada to evaluate land health, post-wildfire rehabilitation efforts and wildlife habitat\n\nMapping and Data Management\n\nMapped and photographed invasive species using GIS, Field Maps and Survey 123, generating spatial data to inform land management strategies\nAnalyzed field data and maintained data quality by inputting and verifying information into a DIMA database (Microsoft Access), ensuring the accuracy of long-term ecological monitoring records\n\n\n\n\nTKPOA | South Lake Tahoe, CA\n\nWater Quality Intern | April 2021 - November 2021\n\n\nWater Quality Technician | April 2022 - June 2022\n\nCollected water quality data from 70 locations at 5 depths in the water column using YSI ProDSS and OTT Hydromet HL4 Sonde devices to assess the effect of invasive weeds on water quality\nMapped 172 acres of waterways monthly during the plant growth season using boats equipped with sonar to visualize plant density Monitored floating plant fragments daily to track species percentages and collected 60+ cubic feet of weed fragments over 80 days\n\n\n\n\nHEAVENLY SKI RESORT | South Lake Tahoe, CA\n\nSki Instructor | November - April, 2020 - 2024\n\nTaught fundamental ski skills while promoting slope etiquette, mountain safety, and teamwork\nCreated a fun learning environment to encourage students to develop a lifelong passion for winter sports Organized students into classes based on skill level and assigned ski instructors to each class"
+    "text": "EXPERIENCE\n\nCOLORADO STATE UNIVERSITY - ROSSyndicate | Fort Collins, CO\n\nWater Database Specialist | January 2025 – August 2025\n\nDeveloped a nation-wide geospatial database of drinking water sources for US National Parks to forecast the security of water supplies for visitors and staff\nDesigned reproducible workflows in R and created standardized operating procedures, improving efficiency and accuracy of database management protocols\n\n\n\n\nEASTERN NEVADA LANDSCAPE COALITION | Carson City, NV; Elko, NV\n\nWeeds Crew Lead | June 2023 - September 2023\n\n\nEcological Monitoring Crew Lead | April 2019 - October 2019\nLeadership\n\nLed a weeds crew in surveying, inventorying, monitoring, and treating 3,700+ acres of public BLM land, developing treatment plans based on weed type, plant growth stage and infestation severity to reduce invasive species and support native ecosystems\nLed an AIM crew in assessing, inventorying, and monitoring 100+ plots on BLM rangelands of Eastern Nevada to evaluate land health, post-wildfire rehabilitation efforts and wildlife habitat\n\nMapping and Data Management\n\nMapped and photographed invasive species using GIS, Field Maps and Survey 123, generating spatial data to inform land management strategies\nAnalyzed field data and maintained data quality by inputting and verifying information into a DIMA database (Microsoft Access), ensuring the accuracy of long-term ecological monitoring records\n\n\n\n\nTKPOA | South Lake Tahoe, CA\n\nWater Quality Intern | April 2021 - November 2021\n\n\nWater Quality Technician | April 2022 - June 2022\n\nCollected water quality data from 70 locations at 5 depths in the water column using YSI ProDSS and OTT Hydromet HL4 Sonde devices to assess the effect of invasive weeds on water quality\nMapped 172 acres of waterways monthly during the plant growth season using boats equipped with sonar to visualize plant density Monitored floating plant fragments daily to track species percentages and collected 60+ cubic feet of weed fragments over 80 days\n\n\n\n\nHEAVENLY SKI RESORT | South Lake Tahoe, CA\n\nSki Instructor | November - April, 2020 - 2024\n\nTaught fundamental ski skills while promoting slope etiquette, mountain safety, and teamwork\nCreated a fun learning environment to encourage students to develop a lifelong passion for winter sports Organized students into classes based on skill level and assigned ski instructors to each class"
   },
   {
     "objectID": "data_science.html",
@@ -186,13 +186,27 @@
     "href": "projects.html#trout-creek-watershed-analysis",
     "title": "Projects",
     "section": "Trout Creek Watershed Analysis",
-    "text": "Trout Creek Watershed Analysis\n\n\nThis project examines the hydrology of the Trout Creek watershed, located on the southern side of Lake Tahoe, CA for water years 1960-2023. Using datasets from USGS and climateengine.org, I analyzed water budget components including precipitation, evapotranspiration, snow water equivalent, and soil moisture. The analysis compares pre- and post-restoration periods of the watershed, with results visualized using the R packages ggplot2, tmap, and plotly.\nView the project here: Trout Creek Watershed Analysis"
+    "text": "Trout Creek Watershed Analysis\n\n\nView the Full Project\nThis project examines the hydrology of the Trout Creek watershed, located on the southern side of Lake Tahoe, CA for water years 1960-2023. Using datasets from USGS and climateengine.org, water budged components such as precipitation, evapotranspiration, snow water equivalent, and soil moisture were evaluated. The analysis compares pre- and post-restoration periods of the watershed, with results visualized using the R packages ggplot2, tmap, and plotly."
   },
   {
     "objectID": "projects.html#pyramid-lake-cyanobacterial-blooms",
     "href": "projects.html#pyramid-lake-cyanobacterial-blooms",
     "title": "Projects",
+    "section": "Pyramid Lake Cyanobacterial Blooms",
+    "text": "Pyramid Lake Cyanobacterial Blooms\n\n\nView the StoryMap\nThis final project for WR514: GIS and Data Analysis in Water Resources, taught by Josh Reyling, leverages ArcGIS to visualize cyanobacterial blooms in Pyramid Lake, NV. NDVI was calculated from Landsat 8-9 imagery for four bloom events, and a threshold of 0.25 was applied to identify areas of potential cyanobacterial activity. The slider app above displays a vectorized representation of NDVI for blooms that occurred on 10/29/2017, 9/22/2021, 10/6/2023 and 10/8/2024."
+  },
+  {
+    "objectID": "projects.html#silvery-minnow-recovery-in-the-middle-rio-grande",
+    "href": "projects.html#silvery-minnow-recovery-in-the-middle-rio-grande",
+    "title": "Projects",
     "section": "",
-    "text": "For this project, I used ArcGIS Pro to analyze and visualize cyanobacterial blooms in Pyramid Lake, NV. NDVI was calculated from Landsat 8-9 imagery for four bloom events, and a threshold of 0.25 was applied to identify areas of potential cyanobacterial activity. The slider app above displays a vectorized representation of NDVI for blooms that occurred on 10/29/2017, 9/22/2021, 10/6/2023 and 10/8/2024.\nView the StoryMap here: Pyramid Lake Cyanobacterial Blooms"
+    "text": "View the Silvery Minnow Bulletin (PDF)\nThis group project for FW 568: Sustaining River Ecosystems in a Changing World, taught by LeRoy Poff and Yoichiro Kanno, presents an informative bulletin designed to raise awareness about endangered silver minnow recovery in the Rio Grande and presents a fictional recovery plan. Co-authors: Maddie Catterson and Carolyn Rothmann"
+  },
+  {
+    "objectID": "cv.html#relevant-coursework",
+    "href": "cv.html#relevant-coursework",
+    "title": "Resume",
+    "section": "Relevant Coursework",
+    "text": "Relevant Coursework\n\nColorado State University\n\nAdvanced Snow Hydrology\nLand Use Hydrology\nWater Law\nSustaining River Ecosystems in a Changing World\nReproducible Remote Sensing Models\nGIS and Data Analysis for Water Resources\nPython for GIS\nEnvironmental Data Science Applications for Water Resources\n\n\n\nUniversity of Nevada, Reno\n\nEcohydrology\nWetland Ecology and Management\nMeteorology\nRangeland Management\nForest and Rangeland Soils\nRangeland-Livestock Interactions\nEnvironmental Law\nEnergy Politics and Policy\nCompliance with NEPA"
   }
 ]

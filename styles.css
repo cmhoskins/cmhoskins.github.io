@@ -1,10 +1,67 @@
-/* General link styles */
+/* =========================
+   Sandstone Theme (Light)
+   ========================= */
 a {
-  color: #3A9E9E;
+  color: #3A6D9C;           /* medium steel blue for readability */
+  text-decoration: none;
+  transition: text-decoration 0.2s ease, color 0.2s ease;
+  font-weight: normal;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+a:hover,
+a:focus {
   text-decoration: underline;
 }
 
-a:hover {
-  color: #D97B66;
+/* PDF links in Sandstone theme */
+a[href$=".pdf"] {
+  color: #3A6D9C;           /* same as regular links */
+  font-size: 12pt;          /* larger font */
+  text-decoration: none;
+  font-weight: normal;
+  font-family: inherit;
+  text-transform: none;
+  transition: text-decoration 0.2s ease, color 0.2s ease;
+}
+
+a[href$=".pdf"]:hover,
+a[href$=".pdf"]:focus {
   text-decoration: underline;
+}
+
+/* =========================
+   Solar Theme (Dark)
+   ========================= */
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #93D2D9;          /* solar teal for regular links */
+    text-decoration: none;
+    font-weight: normal;
+    font-family: inherit;
+    font-size: inherit;
+    transition: text-decoration 0.2s ease, color 0.2s ease;
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+  }
+
+  /* PDF links in Solar theme */
+  a[href$=".pdf"] {
+    color: #93D2D9;          /* same as regular links */
+    font-size: 12pt;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: inherit;
+    text-transform: none;
+    transition: text-decoration 0.2s ease, color 0.2s ease;
+  }
+
+  a[href$=".pdf"]:hover,
+  a[href$=".pdf"]:focus {
+    text-decoration: underline;
+  }
 }

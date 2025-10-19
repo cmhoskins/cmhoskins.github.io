@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,12 +34,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-df479d6c4d77d0e0dfbcb5361179d7fd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-d9598b56567d6db39481eb32cff34dbe.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -119,29 +119,35 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla column-page">
-  <img src="media/snow_profile_2.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-marquee column-page">
+  <div class="about-image-container">
+    <img src="media/IMG_5024.JPEG" class="about-image " style="width: 100%;">
+  </div>
+  <div class="about-contents">
+    <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Colleen Hoskins</h1>
 </div>
 <div class="quarto-title-meta column-page">
   </div>
-</header><main class="content column-page" id="quarto-document-content">
-<p>I’m a graduate student at Colorado State University studying water resources and data analysis. I work for the <a href="https://rossyndicate.com/">ROSSyndicate</a> managing a database of water sources across U.S. National Parks. I spend my days investigating, mapping, and compiling records of surface and groundwater sources available to park visitors and staff. Before attending CSU, I worked in environmental conservation, where I led field crews, conducted ecosystem monitoring, and researched methods to prevent the spread of <a href="https://tahoekeysweeds.org/">aquatic invasive weeds</a>. I am interested in using data science to support water resources research and management.</p>
+</header> <main class="content column-page" id="quarto-document-content">
+<p>I’m a graduate student in the Ecosystem Science and Sustainability program at Colorado State University, focusing on water resources and data science. Earlier in my career, I led conservation field crews in Nevada and California, restoring ecosystems impacted by terrestrial and aquatic invasive species. Researching water quality and aquatic plants inspired me to learn more about sustainable management of water resources. In graduate school, I’ve worked to develop specialized knowledge in hydrology, water law, and water resources planning while building skills in geospatial analysis and data science. I’m interested in applying data and models to drive sustainable management decisions.</p>
 
 
 </main> 
-  <hr class="about-sep">
-   <div class="about-links">
+    <div class="about-footer"><div class="about-links">
   <a href="https://www.linkedin.com/in/colleen-hoskins/" class="about-link" rel="" target="">
      <span class="about-link-text">LinkedIn</span>
   </a>
   <a href="mailto:colleen.hoskins@colostate.edu" class="about-link" rel="" target="">
      <span class="about-link-text">Email</span>
   </a>
+  <a href="https://github.com/cmhoskins" class="about-link" rel="" target="">
+     <span class="about-link-text">GitHub</span>
+  </a>
 </div>
+</div>
+  </div>
 </div>
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -363,8 +369,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -475,7 +479,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
