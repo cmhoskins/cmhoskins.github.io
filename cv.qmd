@@ -1,8 +1,8 @@
 ---
 title: "Resume"
-author: "Colleen Hoskins ([colleen.hoskins@colostate.edu](mailto:colleen.hoskins@colostate.edu))"
 ---
-[Resume](media/Resume%20(PDF).pdf){.btn new-tab=true}
+[View One-Page Resume PDF](media/resume.pdf){.btn target="_blank"}
+
 ## EDUCATION
 
 #### COLORADO STATE UNIVERSITY \| Fort Collins, CO
@@ -73,7 +73,7 @@ author: "Colleen Hoskins ([colleen.hoskins@colostate.edu](mailto:colleen.hoskins
 -   **Leadership:** small group management, interagency collaboration, conflict mitigation, emergency response
 -   **Professional:** team-oriented, dedicated, methodical, conscientious
 
-## RELEVANT COURSEWORK
+##  RELEVANT COURSEWORK
 
 ### Colorado State University
 

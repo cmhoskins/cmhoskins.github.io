@@ -60,21 +60,21 @@
     "href": "cv.html",
     "title": "Resume",
     "section": "",
-    "text": "Focus: Water Resources and Data Analytics"
+    "text": "View One-Page Resume PDF"
   },
   {
     "objectID": "cv.html#education",
     "href": "cv.html#education",
     "title": "Resume",
-    "section": "",
-    "text": "Focus: Water Resources and Data Analytics"
+    "section": "EDUCATION",
+    "text": "EDUCATION\n\nCOLORADO STATE UNIVERSITY | Fort Collins, CO\n\nP.S.M. Master of Ecosystem Science and Sustainability | December 2025\n\nFocus: Water Resources and Data Analytics\nLeadership: P.S.M. Representative for the ESS Graduate Program Committee\n\n\n\n\nUNIVERSITY OF NEVADA | Reno, NV\n\nB.S. Environmental Science | June 2017"
   },
   {
     "objectID": "cv.html#experience",
     "href": "cv.html#experience",
     "title": "Resume",
     "section": "EXPERIENCE",
-    "text": "EXPERIENCE\n\nCOLORADO STATE UNIVERSITY - ROSSyndicate | Fort Collins, CO\n\nWater Database Specialist | January 2025 – August 2025\n\nDeveloped a nation-wide geospatial database of drinking water sources for US National Parks to forecast the security of water supplies for visitors and staff\nDesigned reproducible workflows in R and created standardized operating procedures, improving efficiency and accuracy of database management protocols\n\n\n\n\nEASTERN NEVADA LANDSCAPE COALITION | Carson City, NV; Elko, NV\n\nWeeds Crew Lead | June 2023 - September 2023\n\n\nEcological Monitoring Crew Lead | April 2019 - October 2019\nLeadership\n\nLed a weeds crew in surveying, inventorying, monitoring, and treating 3,700+ acres of public BLM land, developing treatment plans based on weed type, plant growth stage and infestation severity to reduce invasive species and support native ecosystems\nLed an AIM crew in assessing, inventorying, and monitoring 100+ plots on BLM rangelands of Eastern Nevada to evaluate land health, post-wildfire rehabilitation efforts and wildlife habitat\n\nMapping and Data Management\n\nMapped and photographed invasive species using GIS, Field Maps and Survey 123, generating spatial data to inform land management strategies\nAnalyzed field data and maintained data quality by inputting and verifying information into a DIMA database (Microsoft Access), ensuring the accuracy of long-term ecological monitoring records\n\n\n\n\nTKPOA | South Lake Tahoe, CA\n\nWater Quality Intern | April 2021 - November 2021\n\n\nWater Quality Technician | April 2022 - June 2022\n\nCollected water quality data from 70 locations at 5 depths in the water column using YSI ProDSS and OTT Hydromet HL4 Sonde devices to assess the effect of invasive weeds on water quality\nMapped 172 acres of waterways monthly during the plant growth season using boats equipped with sonar to visualize plant density Monitored floating plant fragments daily to track species percentages and collected 60+ cubic feet of weed fragments over 80 days\n\n\n\n\nHEAVENLY SKI RESORT | South Lake Tahoe, CA\n\nSki Instructor | November - April, 2020 - 2024\n\nTaught fundamental ski skills while promoting slope etiquette, mountain safety, and teamwork\nCreated a fun learning environment to encourage students to develop a lifelong passion for winter sports Organized students into classes based on skill level and assigned ski instructors to each class"
+    "text": "EXPERIENCE\n\nCOLORADO STATE UNIVERSITY - ROSSyndicate | Fort Collins, CO\n\nWater Database Specialist | January 2025 – August 2025\n\nDeveloped a nation-wide geospatial database of drinking water sources for US National Parks to forecast the security of water supplies for visitors and staff\nDesigned reproducible workflows in R and created standardized operating procedures, improving efficiency and accuracy of database management protocols\n\n\n\n\nEASTERN NEVADA LANDSCAPE COALITION | Carson City, NV; Elko, NV\n\nWeeds Crew Lead | June 2023 - September 2023\n\n\nEcological Monitoring Crew Lead | April 2019 - October 2019\nConservation\n\nSurveyed and treated 3,700+ acres of public land, developing invasive plant treatments based on species, growth stage, and infestation severity to support healthy native ecosystems\nAssessed, inventoried, and monitored 100+ plots on rangelands of Eastern Nevada to evaluate ecological indicators and measure the effectiveness of post-wildfire restoration efforts\n\nLeadership\n\nCoordinated with the Bureau of Land Management to establish seasonal priorities, plan resources, and meet critical deadlines\nDirected project execution, mentored crew members, and managed logistics including schedules, vehicles, equipment, and meals\n\nData Management\n\nCaptured and shared spatial data using ArcGIS Field Maps and Survey 123, integrating seasonal information with decades of historical monitoring data to track land cover changes\nApplied quality assurance protocols to accurately record and organize field data\n\n\n\n\nTKPOA | South Lake Tahoe, CA\n\nWater Quality Intern | April 2021 - November 2021\n\n\nWater Quality Technician | April 2022 - June 2022\n\nCollected water quality data from 70 locations at 5 depths in the water column using YSI ProDSS and OTT Hydromet HL4 Sonde devices to assess the effect of invasive weeds on water quality\nMapped 172 acres of waterways monthly during the plant growth season using boats equipped with sonar to visualize plant density\nMonitored floating plant fragments daily to track species percentages and collected 60+ cubic feet of weed fragments over 80 days\n\n\n\n\nHEAVENLY SKI RESORT | South Lake Tahoe, CA\n\nSki Instructor | November - April, 2020 - 2024\n\nTaught fundamental ski skills while promoting slope etiquette, mountain safety, and teamwork\nCreated a fun learning environment to encourage students to develop a lifelong passion for winter sports"
   },
   {
     "objectID": "data_science.html",
@@ -137,7 +137,7 @@
     "href": "cv.html#skills",
     "title": "Resume",
     "section": "SKILLS",
-    "text": "SKILLS\n\nTechnical: R, GIS, MS Office Suite\nField: GPS navigation, UTV and 4x4 off-road driving, boat operation, trailer towing\nLeadership: Small group management and training, conflict mitigation, emergency response"
+    "text": "SKILLS\n\nTechnical: R (proficient), ArcGIS Pro (proficient), Python for GIS, JavaScript for Google Earth Engine, Microsoft Office Suite\nField: GPS navigation, GIS-based data collection (FieldMaps, Survey123, Avenza), off-road vehicle operation (UTV/4x4), boat operation, trailer towing\nLeadership: small group management, interagency collaboration, conflict mitigation, emergency response\nProfessional: team-oriented, dedicated, methodical, conscientious"
   },
   {
     "objectID": "watershed_analysis.html",
@@ -206,7 +206,7 @@
     "objectID": "cv.html#relevant-coursework",
     "href": "cv.html#relevant-coursework",
     "title": "Resume",
-    "section": "Relevant Coursework",
-    "text": "Relevant Coursework\n\nColorado State University\n\nAdvanced Snow Hydrology\nLand Use Hydrology\nWater Law\nSustaining River Ecosystems in a Changing World\nReproducible Remote Sensing Models\nGIS and Data Analysis for Water Resources\nPython for GIS\nEnvironmental Data Science Applications for Water Resources\n\n\n\nUniversity of Nevada, Reno\n\nEcohydrology\nWetland Ecology and Management\nMeteorology\nRangeland Management\nForest and Rangeland Soils\nRangeland-Livestock Interactions\nEnvironmental Law\nEnergy Politics and Policy\nCompliance with NEPA"
+    "section": "RELEVANT COURSEWORK",
+    "text": "RELEVANT COURSEWORK\n\nColorado State University\n\nAdvanced Snow Hydrology\nLand Use Hydrology\nWater Law\nSustaining River Ecosystems in a Changing World\nReproducible Remote Sensing Models\nGIS and Data Analysis for Water Resources\nPython for GIS\nEnvironmental Data Science Applications for Water Resources\n\n\n\nUniversity of Nevada, Reno\n\nEcohydrology\nWetland Ecology and Management\nMeteorology\nRangeland Management\nForest and Rangeland Soils\nRangeland-Livestock Interactions\nEnvironmental Law\nEnergy Politics and Policy\nCompliance with NEPA"
   }
 ]
