@@ -3,7 +3,7 @@ title: "Colleen Hoskins"
 image: media/IMG_5024.JPEG
 toc: false
 about: 
-  template: marquee
+  template: jolla
   image-shape: rectangle
   links:
     - icon: linkedin
@@ -11,10 +11,12 @@ about:
       href: https://www.linkedin.com/in/colleen-hoskins/
     - icon: email
       text: Email
-      href: mailto:colleen.hoskins@colostate.edu
+      href: mailto:hoskinscolleen@gmail.com
     - icon: github
       text: GitHub
       href: https://github.com/cmhoskins
 ---
 
-I’m a graduate student in the Ecosystem Science and Sustainability program at Colorado State University, focusing on water resources and data science. Earlier in my career, I led conservation field crews in Nevada and California, restoring ecosystems impacted by terrestrial and aquatic invasive species. Researching water quality and aquatic plants inspired me to learn more about sustainable management of water resources. In graduate school, I’ve worked to develop specialized knowledge in hydrology, water law, and water resources planning while building skills in geospatial analysis and data science. I’m interested in applying data and models to drive sustainable management decisions.
+I am an aspiring ecosystem scientist specializing in data analytics, GIS, and water resources management. I earned my graduate degree in Ecosystem Science and Sustainability from Colorado State University, where I developed expertise in hydrology, water law, geospatial analysis, and environmental data science.
+
+I have a background leading natural resources field teams across Nevada and California, collecting and managing data to support ecosystem assessment and restoration projects. I am seeking to build a career where I can apply both field experience and analytical skills to support informed ecosystem management decisions.

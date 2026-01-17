@@ -2,6 +2,17 @@
 title: "Projects"
 author: "Colleen Hoskins"
 ---
+
+## Interactive Dashboard
+
+<iframe
+  src="https://www.arcgis.com/apps/dashboards/83d7f0506ef74d97a2e7bb741bfa98a3"
+  width="100%"
+  height="600"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
+
 ## Silvery Minnow Recovery in the Middle Rio Grande
 
 ![Silvery Minnow Bulletin Preview](../media/silvery_minnow.jpg){width=80%}
