@@ -1,7 +1,8 @@
 ---
 title: "Resume"
 ---
-[View One-Page Resume PDF](media/resume.pdf){.btn target="_blank"}
+
+[View Resume PDF](media/Hoskins_Resume_EnvironmentalScientist.pdf){.btn target="_blank"}
 
 ## EDUCATION
 
@@ -61,7 +62,7 @@ title: "Resume"
 
 #### HEAVENLY SKI RESORT \| South Lake Tahoe, CA
 
-##### Ski Instructor \| *November - April, 2020 - 2024*
+##### Ski Instructor \| *November - April, 2020 - 2026*
 
 -   Taught fundamental ski skills while promoting slope etiquette, mountain safety, and teamwork
 -   Created a fun learning environment to encourage students to develop a lifelong passion for winter sports
@@ -71,9 +72,8 @@ title: "Resume"
 -   **Technical:** R (proficient), ArcGIS Pro (proficient), Python for GIS, JavaScript for Google Earth Engine, Microsoft Office Suite
 -   **Field:** GPS navigation, GIS-based data collection (FieldMaps, Survey123, Avenza), off-road vehicle operation (UTV/4x4), boat operation, trailer towing
 -   **Leadership:** small group management, interagency collaboration, conflict mitigation, emergency response
--   **Professional:** team-oriented, dedicated, methodical, conscientious
 
-##  RELEVANT COURSEWORK
+## RELEVANT COURSEWORK
 
 ### Colorado State University
 
