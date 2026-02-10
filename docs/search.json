@@ -4,7 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "View the Full Dashboard\nAs part of an internship with the Rossyndicate at Colorado State University, I contributed to the development of a comprehensive database of water sources in U.S. National Parks. This project uses the database to assess which water supplies are at risk of saltwater intrusion due to sea-level rise and changes in aquifer recharge."
+    "text": "Projected Coordinate System: USA Contiguous Albers Equal Area Conic\n\n\n\n\nDuring an internship with the Rossyndicate Lab at Colorado State University, I contributed to the development of a comprehensive database of water sources in U.S. National Parks. This project uses the database to assess the risk of saltwater intrusion to park water sources due to sea-level rise and changes in aquifer recharge.\nView the Project Dashboard"
   },
   {
     "objectID": "projects.html#introduction",
@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "Colleen Hoskins",
     "section": "",
-    "text": "I am an aspiring ecosystem scientist specializing in data analytics, GIS, and water resources management. I earned my graduate degree in Ecosystem Science and Sustainability from Colorado State University, where I developed expertise in hydrology, water law, geospatial analysis, and environmental data science.\nI have a background leading natural resources field teams across Nevada and California, collecting and managing data to support ecosystem assessment and restoration projects. I am seeking to build a career where I can apply both field experience and analytical skills to support informed ecosystem management decisions."
+    "text": "I am interested in protecting ecosystems and conserving natural resources. I earned my graduate degree in Ecosystem Science and Sustainability from Colorado State University, where I focused on water resources management, geospatial analytics and environmental data science. I have a background leading natural resources field teams across Nevada and California, collecting and managing environmental data to support ecosystem assessment and restoration projects. My work leverages field experience and targeted analytical approaches to develop sustainable management solutions."
   },
   {
     "objectID": "cv.html",
@@ -81,7 +81,7 @@
     "href": "data_science.html",
     "title": "Data Science Labs",
     "section": "",
-    "text": "This page highlights skills I’ve learned by completing labs from 523 C: Environmental Data Science Applications for Water Resources taught at Colorado State University by Mike Johnson, PhD."
+    "text": "This page highlights skills learned by completing labs from 523 C: Environmental Data Science Applications for Water Resources, taught at Colorado State University by Mike Johnson, PhD."
   },
   {
     "objectID": "data_science.html#introduction",
@@ -95,7 +95,7 @@
     "href": "data_science.html#covid-trends",
     "title": "Data Science Labs",
     "section": "COVID Trends",
-    "text": "COVID Trends\n\n\n\n\n\nWeighted Mean Center of the COVID-19 Outbreak\n\n\n\n\nThrough this lab, I developed skills in vector data analysis and visualization using COVID-19 data. I gained experience in data wrangling with dplyr, tidyverse, and lubridate; data visualization with ggplot2 and flextable; and building and evaluating a linear model. I also used sf and zoo for spatial and temporal data analysis.\nView the lab here: Lab 1 - COVID Trends"
+    "text": "COVID Trends\n\n\n\n\n\nWeighted Mean Center of the COVID-19 Outbreak\n\n\n\n\nAnalyzed and visualized COVID-19 vector data, including data wrangling, spatial and temporal analysis, and linear model development using dplyr, tidyverse, lubridate, sf, zoo, ggplot2 and flextable.\nView the lab here: Lab 1 - COVID Trends"
   },
   {
     "objectID": "data_science.html#lab-1---covid-trends",
@@ -109,28 +109,28 @@
     "href": "data_science.html#distances-and-projections",
     "title": "Data Science Labs",
     "section": "Distances and Projections",
-    "text": "Distances and Projections\n\n\n\n\n\nMap of the Most Populous cities in Each State Within 100 Miles of the U.S. Border\n\n\n\n\nIn this lab, I continued to build on my vector data wrangling and visualization skills. I explored the structure and properties of sf, sfc, and sfg objects, and used the sf package to work with spatial data. I practiced transforming coordinate reference systems, calculating distances, and handling spatial geometries. Additionally, I expanded my data visualization techniques using mapview and gglighlight.\nView the lab here: Lab 2 - Distances and Projections"
+    "text": "Distances and Projections\n\n\n\n\n\nMap of the Most Populous cities in Each State Within 100 Miles of the U.S. Border\n\n\n\n\nExamined the structure and properties of sf, sfc, and sfg objects and applied the sf package for spatial data workflows, including coordinate reference system transformations, distance calculations, and geometry handling. Visualized spatial data using mapview and gglighlight.\nView the lab here: Lab 2 - Distances and Projections"
   },
   {
     "objectID": "data_science.html#tessallations-point-in-polygon",
     "href": "data_science.html#tessallations-point-in-polygon",
     "title": "Data Science Labs",
     "section": "Tessallations, Point-in-Polygon",
-    "text": "Tessallations, Point-in-Polygon\n\n\n\n\n\nDistribution of Hydroelectric Dams across the USA with Hexagonal Grid Tessallation (above mean + 1 standard deviations)\n\n\n\n\nBy completing this lab, I learned how to implement tessellations for spatial data analysis and learned about the Modifiable Areal Unit Problem (MAUP). I used the AOI package to define an area of interest encompassing CONUS states. I then used Voronoi, triangulated, square grid, and hexagonal grid tessellations to examine the spatial distribution of US dams. I used point-in-polygon analysis and rmapshaper to simplify geometries, and wrote functions to streamline analysis and visualization. Adding to my data visualization skills, I created an interactive map using leaflet and used kableExtra to create a polished table.\nView the lab here: Lab 3 - Tessallations, Point-in-Polygon"
+    "text": "Tessallations, Point-in-Polygon\n\n\n\n\n\nDistribution of Hydroelectric Dams across the USA with Hexagonal Grid Tessallation (above mean + 1 standard deviations)\n\n\n\n\nImplemented multiple tessellation approaches (Voronoi, triangulated, square grid, and hexagonal grids) to analyze the spatial distribution of U.S. dams within a CONUS area of interest defined using the AOI package. Conducted point-in-polygon analysis, simplified geometries with rmapshaper, and developed reusable functions to streamline analysis and visualization. Produced interactive maps with leaflet and formatted summary tables using kableExtra, with attention to implications of the Modifiable Areal Unit Problem (MAUP).\nView the lab here: Lab 3 - Tessallations, Point-in-Polygon"
   },
   {
     "objectID": "data_science.html#rasters-remote-sensing",
     "href": "data_science.html#rasters-remote-sensing",
     "title": "Data Science Labs",
     "section": "Rasters & Remote Sensing",
-    "text": "Rasters & Remote Sensing\n\n\n\n\n\nStatellite imagery raster layers of 5 indices for Palo, Iowa during the flooding event on September 26, 2016\n\n\n\n\nIn this lab, I practiced working with raster data by creating flood maps using satellite imagery from a flooding event along the Cedar and Wapsipinicon rivers. I used terra and rstac to access and process Landsat Collection 2 imagery, and then RGB composites for initial visualization. Using raster algebra, I calculated spectral indices, applied thresholds, and used the stats package to extract flood clusters. I then categorized flood extent and classified flood certainty.\nView the lab here: Lab 4 - Raster & Remote Sensing"
+    "text": "Rasters & Remote Sensing\n\n\n\n\n\nStatellite imagery raster layers of 5 indices for Palo, Iowa during the flooding event on September 26, 2016\n\n\n\n\nCreated flood extent maps using satellite imagery from a flooding event along the Cedar and Wapsipinicon rivers. Accessed and processed Landsat Collection 2 imagery with terra and rstac, generated RGB composites for initial visualization, and applied raster algebra to compute spectral indices, threshold flood signals, and extract flood clusters using the stats package. Classified flood extent and flood certainty.\nView the lab here: Lab 4 - Raster & Remote Sensing"
   },
   {
     "objectID": "data_science.html#machine-learning-in-hydrology",
     "href": "data_science.html#machine-learning-in-hydrology",
     "title": "Data Science Labs",
     "section": "Machine Learning in Hydrology",
-    "text": "Machine Learning in Hydrology\n\n\n\n\n\nRandom Forest Model Using PET and Precipitation to Predict Streamflow\n\n\n\n\nThrough this lab, I explored predictive modeling using the tidymodels framework and the Catchment Attributes and Meteorology for Large-samples Studies (CAMELS) dataset. I learned best practices for building reproducable models. I applied and compared four modeling techniques: linear regression, random forest, xgboost and neural networks using baguette. I evaluated model performance using RMSE, R-squared, and MAE, and visualized results using the vipand workflows packages.\nView the lab here: Lab 5 - Machine Learning in Hydrology"
+    "text": "Machine Learning in Hydrology\n\n\n\n\n\nRandom Forest Model Using PET and Precipitation to Predict Streamflow\n\n\n\n\nApplied predictive modeling workflows using the tidymodels framework and the CAMELS dataset, implementing and comparing linear regression, random forest, xgboost and neural network models using baguette. Evaluated model performance using RMSE, R², and MAE, and visualized results using vip and workflows.\nView the lab here: Lab 5 - Machine Learning in Hydrology"
   },
   {
     "objectID": "cv.html#skills",
@@ -186,14 +186,14 @@
     "href": "projects.html#trout-creek-watershed-analysis",
     "title": "Projects",
     "section": "Trout Creek Watershed Analysis",
-    "text": "Trout Creek Watershed Analysis\n\n\nView the Full Project\nThis project examines the hydrology of the Trout Creek watershed, located on the southern side of Lake Tahoe, CA for water years 1960-2023. Using datasets from USGS and climateengine.org, water budged components such as precipitation, evapotranspiration, snow water equivalent, and soil moisture were evaluated. The analysis compares pre- and post-restoration periods of the watershed, with results visualized using the R packages ggplot2, tmap, and plotly."
+    "text": "Trout Creek Watershed Analysis\n\n\nThis project examines the hydrology of the Trout Creek watershed, located on the southern side of Lake Tahoe, CA. Using datasets from USGS and climateengine.org, precipitation, evapotranspiration, snow water equivalent, and soil moisture were evaluated for water years 1960-2023. The analysis compares pre- and post-restoration periods of the watershed, with results visualized using the R packages ggplot2, tmap, and plotly.\nView the Project Quarto Report"
   },
   {
     "objectID": "projects.html#pyramid-lake-cyanobacterial-blooms",
     "href": "projects.html#pyramid-lake-cyanobacterial-blooms",
     "title": "Projects",
     "section": "Pyramid Lake Cyanobacterial Blooms",
-    "text": "Pyramid Lake Cyanobacterial Blooms\n\n\nView the StoryMap\nThis final project for WR514: GIS and Data Analysis in Water Resources, taught by Josh Reyling, leverages ArcGIS to visualize cyanobacterial blooms in Pyramid Lake, NV. NDVI was calculated from Landsat 8-9 imagery for four bloom events, and a threshold of 0.25 was applied to identify areas of potential cyanobacterial activity. The slider app above displays a vectorized representation of NDVI for blooms that occurred on 10/29/2017, 9/22/2021, 10/6/2023 and 10/8/2024."
+    "text": "Pyramid Lake Cyanobacterial Blooms\n\n\nThis project uses ArcGIS to visualize cyanobacterial blooms in Pyramid Lake, NV. NDVI was calculated from Landsat 8-9 imagery for four bloom events, and a threshold of 0.25 was applied to identify areas of potential cyanobacterial activity. The slider app displays a vectorized representation of NDVI for blooms that occurred on 10/29/2017, 9/22/2021, 10/6/2023 and 10/8/2024.\nView the Project StoryMap"
   },
   {
     "objectID": "projects.html#silvery-minnow-recovery-in-the-middle-rio-grande",
@@ -214,6 +214,13 @@
     "href": "projects.html#saltwater-intrusion-risk-in-u.s.-national-parks",
     "title": "Projects",
     "section": "",
-    "text": "View the Full Dashboard\nAs part of an internship with the Rossyndicate at Colorado State University, I contributed to the development of a comprehensive database of water sources in U.S. National Parks. This project uses the database to assess which water supplies are at risk of saltwater intrusion due to sea-level rise and changes in aquifer recharge."
+    "text": "Contiguous U.S. National Parks at risk of saltwater intrusion. Projection: USA Contiguous Albers Equal Area Conic\n\n\n\n\nDuring an internship with the Rossyndicate Lab at Colorado State University, I contributed to the development of a comprehensive database of water sources in U.S. National Parks. This project uses the database to assess the risk of saltwater intrusion to park water sources due to sea-level rise and changes in aquifer recharge.\nView the Project Dashboard"
+  },
+  {
+    "objectID": "projects.html#saltwater-intrusion-risk-in-contiguous-u.s.-national-parks",
+    "href": "projects.html#saltwater-intrusion-risk-in-contiguous-u.s.-national-parks",
+    "title": "Projects",
+    "section": "",
+    "text": "Projected Coordinate System: USA Contiguous Albers Equal Area Conic\n\n\n\n\nDuring an internship with the Rossyndicate Lab at Colorado State University, I contributed to the development of a comprehensive database of water sources in U.S. National Parks. This project uses the database to assess the risk of saltwater intrusion to park water sources due to sea-level rise and changes in aquifer recharge.\nView the Project Dashboard"
   }
 ]

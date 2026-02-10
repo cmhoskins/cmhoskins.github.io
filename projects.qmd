@@ -3,15 +3,19 @@ title: "Projects"
 author: "Colleen Hoskins"
 ---
 
-## Saltwater Intrusion Risk in U.S. National Parks
+## Saltwater Intrusion Risk in Contiguous U.S. National Parks
 
-<iframe src="https://www.arcgis.com/apps/dashboards/83d7f0506ef74d97a2e7bb741bfa98a3" width="100%" height="600" frameborder="0" allowfullscreen>
+```{r}
+#| warning: FALSE
+#| echo: FALSE
+#| fig-cap: "Projected Coordinate System: USA Contiguous Albers Equal Area Conic"
+knitr::include_graphics("media/SWIMap_Alt.jpg")
+```
 
-</iframe>
+During an internship with the Rossyndicate Lab at Colorado State University, I contributed to the development of a comprehensive database of water sources in U.S. National Parks. This project uses the database to assess the risk of saltwater intrusion to park water sources due to sea-level rise and changes in aquifer recharge.
 
-[View the Full Dashboard](https://www.arcgis.com/apps/dashboards/83d7f0506ef74d97a2e7bb741bfa98a3)
+[View the Project Dashboard](https://www.arcgis.com/apps/dashboards/83d7f0506ef74d97a2e7bb741bfa98a3)
 
-As part of an internship with the Rossyndicate at Colorado State University, I contributed to the development of a comprehensive database of water sources in U.S. National Parks. This project uses the database to assess which water supplies are at risk of saltwater intrusion due to sea-level rise and changes in aquifer recharge.
 
 ## Pyramid Lake Cyanobacterial Blooms
 
@@ -19,15 +23,10 @@ As part of an internship with the Rossyndicate at Colorado State University, I c
 
 </iframe>
 
-[View the StoryMap](https://storymaps.arcgis.com/stories/2c2f03375fc8477d94bd3c72ec287b1a)
+This project uses ArcGIS to visualize cyanobacterial blooms in Pyramid Lake, NV. NDVI was calculated from Landsat 8-9 imagery for four bloom events, and a threshold of 0.25 was applied to identify areas of potential cyanobacterial activity. The slider app displays a vectorized representation of NDVI for blooms that occurred on 10/29/2017, 9/22/2021, 10/6/2023 and 10/8/2024.
 
-This final project for WR514: GIS and Data Analysis in Water Resources, taught by Josh Reyling, leverages ArcGIS to visualize cyanobacterial blooms in Pyramid Lake, NV. NDVI was calculated from Landsat 8-9 imagery for four bloom events, and a threshold of 0.25 was applied to identify areas of potential cyanobacterial activity. The slider app above displays a vectorized representation of NDVI for blooms that occurred on 10/29/2017, 9/22/2021, 10/6/2023 and 10/8/2024.
+[View the Project StoryMap](https://storymaps.arcgis.com/stories/2c2f03375fc8477d94bd3c72ec287b1a)
 
-## Silvery Minnow Recovery in the Middle Rio Grande
-
-![Silvery Minnow Bulletin Preview](../media/silvery_minnow.jpg){width="80%"} [View the Silvery Minnow Bulletin (PDF)](silvery_minnow.pdf){.btn new-tab="true"}
-
-This group project for FW 568: Sustaining River Ecosystems in a Changing World, taught by LeRoy Poff and Yoichiro Kanno, presents an informative bulletin designed to raise awareness about endangered silver minnow recovery in the Rio Grande and presents a fictional recovery plan. *Co-authors: Maddie Catterson and Carolyn Rothmann*
 
 ## Trout Creek Watershed Analysis
 
@@ -35,6 +34,6 @@ This group project for FW 568: Sustaining River Ecosystems in a Changing World, 
 
 </iframe>
 
-[View the Full Project](watershed_analysis.qmd)
+This project examines the hydrology of the Trout Creek watershed, located on the southern side of Lake Tahoe, CA. Using datasets from USGS and climateengine.org, precipitation, evapotranspiration, snow water equivalent, and soil moisture were evaluated for water years 1960-2023. The analysis compares pre- and post-restoration periods of the watershed, with results visualized using the R packages `ggplot2`, `tmap`, and `plotly`.
 
-This project examines the hydrology of the Trout Creek watershed, located on the southern side of Lake Tahoe, CA for water years 1960-2023. Using datasets from USGS and climateengine.org, water budged components such as precipitation, evapotranspiration, snow water equivalent, and soil moisture were evaluated. The analysis compares pre- and post-restoration periods of the watershed, with results visualized using the R packages `ggplot2`, `tmap`, and `plotly`.
+[View the Project Quarto Report](watershed_analysis.qmd)

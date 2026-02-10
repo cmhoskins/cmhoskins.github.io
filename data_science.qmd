@@ -3,9 +3,10 @@ title: "Data Science Labs"
 title-block-style: "none"
 ---
 
-This page highlights skills I've learned by completing labs from **523 C: Environmental Data Science Applications for Water Resources** taught at Colorado State University by Mike Johnson, PhD.
+This page highlights skills learned by completing labs from 523 C: Environmental Data Science Applications for Water Resources, taught at Colorado State University by Mike Johnson, PhD.
 
 ## COVID Trends
+
 ```{r}
 #| warning: FALSE
 #| echo: FALSE
@@ -13,11 +14,12 @@ This page highlights skills I've learned by completing labs from **523 C: Enviro
 knitr::include_graphics("media/weighted_means.png")
 ```
 
-Through this lab, I developed skills in vector data analysis and visualization using COVID-19 data. I gained experience in data wrangling with `dplyr`, `tidyverse`, and `lubridate`; data visualization with `ggplot2` and `flextable`; and building and evaluating a linear model. I also used `sf` and `zoo` for spatial and temporal data analysis. 
+Analyzed and visualized COVID-19 vector data, including data wrangling, spatial and temporal analysis, and linear model development using `dplyr`, `tidyverse`, `lubridate`, `sf`, `zoo`, `ggplot2` and `flextable`.
 
 View the lab here: [Lab 1 - COVID Trends](https://cmhoskins.github.io/csu_523c/lab-01.html)
 
 ## Distances and Projections
+
 ```{r}
 #| warning: FALSE
 #| echo: FALSE
@@ -25,11 +27,12 @@ View the lab here: [Lab 1 - COVID Trends](https://cmhoskins.github.io/csu_523c/l
 knitr::include_graphics("media/border-2.png")
 ```
 
-In this lab, I continued to build on my vector data wrangling and visualization skills. I explored the structure and properties of sf, sfc, and sfg objects, and used the `sf` package to work with spatial data. I practiced transforming coordinate reference systems, calculating distances, and handling spatial geometries. Additionally, I expanded my data visualization techniques using `mapview` and `gglighlight`. 
+Examined the structure and properties of sf, sfc, and sfg objects and applied the `sf` package for spatial data workflows, including coordinate reference system transformations, distance calculations, and geometry handling. Visualized spatial data using `mapview` and `gglighlight`.
 
 View the lab here: [Lab 2 - Distances and Projections](https://cmhoskins.github.io/csu_523c/lab-02.html)
 
 ## Tessallations, Point-in-Polygon
+
 ```{r}
 #| warning: FALSE
 #| echo: FALSE
@@ -37,11 +40,12 @@ View the lab here: [Lab 2 - Distances and Projections](https://cmhoskins.github.
 knitr::include_graphics("media/hydroelectric.png")
 ```
 
-By completing this lab, I learned how to implement tessellations for spatial data analysis and learned about the Modifiable Areal Unit Problem (MAUP). I used the `AOI` package to define an area of interest encompassing CONUS states. I then used Voronoi, triangulated, square grid, and hexagonal grid tessellations to examine the spatial distribution of US dams. I used point-in-polygon analysis and `rmapshaper` to simplify geometries, and wrote functions to streamline analysis and visualization. Adding to my data visualization skills, I created an interactive map using `leaflet` and used `kableExtra` to create a polished table.
+Implemented multiple tessellation approaches (Voronoi, triangulated, square grid, and hexagonal grids) to analyze the spatial distribution of U.S. dams within a CONUS area of interest defined using the `AOI` package. Conducted point-in-polygon analysis, simplified geometries with `rmapshaper`, and developed reusable functions to streamline analysis and visualization. Produced interactive maps with `leaflet` and formatted summary tables using `kableExtra`, with attention to implications of the Modifiable Areal Unit Problem (MAUP).
 
 View the lab here: [Lab 3 - Tessallations, Point-in-Polygon](https://cmhoskins.github.io/csu_523c/lab-03.html)
 
 ## Rasters & Remote Sensing
+
 ```{r}
 #| warning: FALSE
 #| echo: FALSE
@@ -49,11 +53,12 @@ View the lab here: [Lab 3 - Tessallations, Point-in-Polygon](https://cmhoskins.g
 knitr::include_graphics("media/indices.png")
 ```
 
-In this lab, I practiced working with raster data by creating flood maps using satellite imagery from a flooding event along the Cedar and Wapsipinicon rivers. I used `terra` and `rstac` to access and process Landsat Collection 2 imagery, and then RGB composites for initial visualization. Using raster algebra, I calculated spectral indices, applied thresholds, and used the `stats` package to extract flood clusters. I then categorized flood extent and classified flood certainty. 
+Created flood extent maps using satellite imagery from a flooding event along the Cedar and Wapsipinicon rivers. Accessed and processed Landsat Collection 2 imagery with `terra` and `rstac`, generated RGB composites for initial visualization, and applied raster algebra to compute spectral indices, threshold flood signals, and extract flood clusters using the `stats` package. Classified flood extent and flood certainty.
 
 View the lab here: [Lab 4 - Raster & Remote Sensing](https://cmhoskins.github.io/csu_523c/lab-04.html)
 
 ## Machine Learning in Hydrology
+
 ```{r}
 #| warning: FALSE
 #| echo: FALSE
@@ -61,6 +66,6 @@ View the lab here: [Lab 4 - Raster & Remote Sensing](https://cmhoskins.github.io
 knitr::include_graphics("media/model-pet.png")
 ```
 
-Through this lab, I explored predictive modeling using the `tidymodels` framework and the Catchment Attributes and Meteorology for Large-samples Studies (CAMELS) dataset. I learned best practices for building reproducable models. I applied and compared four modeling techniques: linear regression, random forest, `xgboost` and neural networks using `baguette`. I evaluated model performance using RMSE, R-squared, and MAE, and visualized results using the `vip`and `workflows` packages. 
+Applied predictive modeling workflows using the `tidymodels` framework and the CAMELS dataset, implementing and comparing linear regression, random forest, `xgboost` and neural network models using `baguette`. Evaluated model performance using RMSE, R², and MAE, and visualized results using `vip` and `workflows`.
 
 View the lab here: [Lab 5 - Machine Learning in Hydrology](https://cmhoskins.github.io/csu_523c/lab-05.html)

@@ -26,20 +26,29 @@ tc_point$site_id <- "USGS-10336610"
 #| messages: false
 
 tc_watershed <- tc_watershed %>%
-  mutate(layer_name = "Watershed") %>%
-  select(layer_name, everything())  
+  mutate(hover_label = "Trout Creek Watershed")
 
 tc_point <- tc_point %>%
-  mutate(layer_name = "Stream Gauge") %>%
-  select(layer_name, everything())
+  mutate(hover_label = "USGS Stream Gauge 10336790")
 
 tmap_mode("view")
 
-tc_map <- tm_shape(tc_watershed) +
-  tm_polygons(col = "#377eb8", alpha = 0.4, border.col = "#377eb8") +  
-  tm_shape(tc_point) +
-  tm_bubbles(col = "#e41a1c") +  
-  tm_basemap("Esri.WorldStreetMap")
+tc_map <- tm_shape(tc_watershed, group = "Watershed") +
+  tm_polygons(
+    col = "#377eb8",
+    alpha = 0.4,
+    border.col = "#377eb8",
+    id = "hover_label",   
+    popup.vars = NA       
+  ) +
+  tm_shape(tc_point, group = "USGS Gauge") +
+  tm_dots(
+    col = "#08306B",
+    size = 1,
+    id = "hover_label",
+    popup.vars = NA
+  ) +
+  tm_basemap("Esri.WorldGrayCanvas")
 
 tc_map
 
