@@ -1,0 +1,7 @@
+/* Force navbar links to stay white (including PDF links) */
+.navbar a,
+.navbar a:visited,
+.navbar a:hover,
+.navbar a:active {
+  color: white !important;
+}
